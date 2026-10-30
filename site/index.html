@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hackathon Radar</title>
+  <meta name="description" content="Başvurusu açık hackathon, ideathon, datathon ve yarışmalar — her gün güncellenir.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <span class="logo">📡</span>
+        <div>
+          <h1>Hackathon Radar</h1>
+          <p class="sub">Başvurusu açık hackathon · ideathon · datathon · yarışma</p>
+        </div>
+      </div>
+      <p class="meta" id="meta">Yükleniyor…</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters">
+      <input id="q" type="search" placeholder="Ara: yapay zeka, fintech, İstanbul…" autocomplete="off">
+      <div class="row">
+        <div class="chips" id="types"></div>
+        <div class="selects">
+          <select id="where">
+            <option value="all">Tüm konumlar</option>
+            <option value="tr">🇹🇷 Türkiye</option>
+            <option value="online">🌐 Online</option>
+            <option value="tr-online">Türkiye + Online</option>
+          </select>
+          <select id="source"><option value="all">Tüm kaynaklar</option></select>
+          <select id="sort">
+            <option value="deadline">Son başvuruya göre</option>
+            <option value="new">En yeni eklenen</option>
+          </select>
+        </div>
+      </div>
+      <label class="toggle"><input type="checkbox" id="onlyNew"> Sadece son 2 günde eklenenler</label>
+    </section>
+
+    <p class="count" id="count"></p>
+    <section class="grid" id="grid"></section>
+    <p class="empty" id="empty" hidden>Bu filtrelere uyan etkinlik yok.</p>
+  </main>
+
+  <footer class="wrap foot">
+    Kaynaklar: Devpost, MLH, Luma, Coderspace, Techcareer, Youthall, Anbean Kampüs, Kaggle,
+    LinkedIn / Instagram / X / TikTok gönderileri, üniversite (edu.tr) ve topluluk sayfaları.
+    Her gün GitHub Actions ile yenilenir.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
