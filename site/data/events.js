@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-10-30T12:40:27+00:00",
- "count": 384,
+ "updated_at": "2026-10-30T12:42:51+00:00",
+ "count": 386,
  "sources": {
   "Devpost": 176,
   "MLH": 64,
-  "Luma": 326,
+  "Luma": 332,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
@@ -5071,6 +5071,25 @@ window.HACKRADAR_DATA = {
    "id": "dd7b4b0a53d6"
   },
   {
+   "title": "Personal Agents Hackathon",
+   "url": "https://luma.com/personalagenthack",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "tokens&",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/51/056914b0-798e-4849-9227-b2d4d1e94c01.png",
+   "summary": "tokens&",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "9251a63d77c5"
+  },
+  {
    "title": "STEM2Connect AI Hackathon",
    "url": "https://stem2connect-online-hackathon.devpost.com/",
    "source": "Devpost",
@@ -5111,6 +5130,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "53adbde00011"
+  },
+  {
+   "title": "Tanda AI Hackathon: What if…?",
+   "url": "https://luma.com/n0sbm2px",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Fortitude Valley, QLD",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/u1/aa3f4b76-4a49-4f34-9587-e1caddbe84c6.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "0ed476039f38"
   },
   {
    "title": "Teens Hack Houston Hackathon",
