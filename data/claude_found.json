@@ -103,6 +103,19 @@
       "online": null,
       "turkey": true,
       "summary": "20. kez düzenlenen, beş kategoride toplam 3 milyon TL ödüllü kadın girişimciler yarışması; başvurular 30 Kasım'a kadar devam ediyor."
+    },
+    {
+      "title": "COP31'e Manisa'dan Çözümler – Sanayi ve Kampüslerde Yeşil Dönüşüm Hackathonu",
+      "url": "https://manisatto.com.tr/p/etkinlikler-hackathon",
+      "platform": "Üniversite",
+      "type": "hackathon",
+      "organizer": "Manisa TTO (Manisa Celal Bayar Üniversitesi Teknokent)",
+      "deadline": "2026-11-01",
+      "event_date": "2026-11-03",
+      "location": "Manisa",
+      "online": false,
+      "turkey": true,
+      "summary": "Sanayi ve kampüslerde yeşil dönüşüm temalı, 3–4 Kasım'da Manisa Teknokent'te 24 saat kesintisiz hackathon; 2-4 kişilik takımlar."
     }
   ]
 }

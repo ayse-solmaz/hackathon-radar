@@ -1,17 +1,17 @@
 {
- "updated_at": "2026-10-30T12:42:51+00:00",
- "count": 386,
+ "updated_at": "2026-10-30T12:43:06+00:00",
+ "count": 385,
  "sources": {
   "Devpost": 176,
   "MLH": 64,
-  "Luma": 332,
+  "Luma": 257,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
   "Anbean Kampüs": 33,
   "TEKNOFEST": 0,
   "Kaggle": 0,
-  "Sosyal (Claude Code)": 8,
+  "Sosyal (Claude Code)": 9,
   "Sosyal (Serper)": 0
  },
  "events": [
@@ -875,6 +875,25 @@
    ],
    "first_seen": "2026-10-30",
    "id": "579a19cc80b9"
+  },
+  {
+   "title": "COP31'e Manisa'dan Çözümler – Sanayi ve Kampüslerde Yeşil Dönüşüm Hackathonu",
+   "url": "https://manisatto.com.tr/p/etkinlikler-hackathon",
+   "source": "Üniversite",
+   "type": "hackathon",
+   "organizer": "Manisa TTO (Manisa Celal Bayar Üniversitesi Teknokent)",
+   "location": "Manisa",
+   "online": false,
+   "turkey": true,
+   "start": "2026-11-03",
+   "end": null,
+   "deadline": "2026-11-01",
+   "prize": null,
+   "image": null,
+   "summary": "Sanayi ve kampüslerde yeşil dönüşüm temalı, 3–4 Kasım'da Manisa Teknokent'te 24 saat kesintisiz hackathon; 2-4 kişilik takımlar.",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "ec5e642b1d14"
   },
   {
    "title": "DevDay Community Hackathon: London",
@@ -1746,25 +1765,6 @@
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "fe1b0d5fc55b"
-  },
-  {
-   "title": "Mixpanel x Replit - Ship It: The Product Builders' Hackathon",
-   "url": "https://luma.com/hkl88ogt",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Mixpanel",
-   "location": "San Francisco, CA",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-05",
-   "end": "2026-11-06",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/bi/bfeb90a7-aaa3-4a70-9c15-9f83158e3642.png",
-   "summary": "Mixpanel",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "b48680b9206e"
   },
   {
    "title": "PowerHack",
