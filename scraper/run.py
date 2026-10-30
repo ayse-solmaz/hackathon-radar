@@ -88,12 +88,15 @@ def main() -> None:
     active.sort(key=lambda e: (e.deadline or e.end or e.start or "9999", e.title))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({
+    payload = json.dumps({
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "count": len(active),
         "sources": stats,
         "events": [e.to_dict() for e in active],
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    }, ensure_ascii=False, indent=1)
+    OUT.write_text(payload, encoding="utf-8")
+    # same data as a script, so site/index.html also works when opened as a file
+    OUT.with_suffix(".js").write_text(f"window.HACKRADAR_DATA = {payload};\n", encoding="utf-8")
     print(f"\n{len(active)} aktif etkinlik -> {OUT.relative_to(ROOT)}")
 
 

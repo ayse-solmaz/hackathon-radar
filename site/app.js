@@ -107,8 +107,7 @@ function renderChips() {
 }
 
 async function init() {
-  const res = await fetch("data/events.json", { cache: "no-cache" });
-  const data = await res.json();
+  const data = window.HACKRADAR_DATA || (await (await fetch("data/events.json", { cache: "no-cache" })).json());
   state.events = data.events;
 
   const updated = new Date(data.updated_at).toLocaleString("tr-TR", { dateStyle: "medium", timeStyle: "short" });
