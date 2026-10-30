@@ -69,6 +69,8 @@ input[type="search"]:focus, select:focus { outline: 2px solid var(--accent); out
 
 .count { color: var(--muted); font-size: 13px; margin: 8px 0 12px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.section { grid-column: 1 / -1; margin: 12px 0 0; font-size: 18px; letter-spacing: -0.01em; }
+.section small { color: var(--muted); font-weight: 500; font-size: 14px; }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit;

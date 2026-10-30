@@ -32,9 +32,13 @@ def is_active(e: Event) -> bool:
     deadline = parse_iso(e.deadline)
     if deadline:
         return deadline >= TODAY
-    last = parse_iso(e.end) or parse_iso(e.start)
-    if last:
-        return last >= TODAY
+    # Without a deadline, an event that already started can't be joined anymore.
+    start = parse_iso(e.start)
+    if start:
+        return start >= TODAY
+    end = parse_iso(e.end)
+    if end:
+        return end >= TODAY
     seen = parse_iso(e.first_seen) or TODAY
     return (TODAY - seen).days <= UNDATED_TTL_DAYS
 
@@ -51,7 +55,10 @@ def main() -> None:
 
     collected: list[Event] = []
     stats: dict[str, int] = {}
-    collectors = dict(sources.ALL) | {"Sosyal & Web": social.collect}
+    collectors = dict(sources.ALL) | {
+        "Sosyal (Claude Code)": social.from_claude_code,
+        "Sosyal (Serper)": social.collect,
+    }
     for name, fn in collectors.items():
         t0 = time.time()
         try:

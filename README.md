@@ -8,23 +8,25 @@ Başvurusu açık **hackathon, ideathon, datathon ve yarışmaları** tek sayfad
 |---|---|---|
 | Devpost | Public JSON API | Hayır |
 | MLH | Sayfadaki gömülü JSON | Hayır |
-| Luma | Discover API (`hackathon`, `datathon`… araması + İstanbul/Ankara/İzmir) | Hayır |
-| Coderspace | JSON-LD | Hayır |
+| Luma | Discover API (`hackathon`, `datathon`… araması + 9 Türk şehri) | Hayır |
+| Coderspace | JSON-LD + detay sayfasından son başvuru | Hayır |
 | Techcareer.net | Next.js verisi (`/hackathon`, `/datathon`, `/ideathon`) | Hayır |
-| Youthall, Anbean Kampüs | HTML kartları | Hayır |
+| Youthall, Anbean Kampüs | HTML kartları (Anbean hackathon/ideathon/yarışma kategorileri), son başvuru detay sayfasından doğrulanır | Hayır |
+| TEKNOFEST | Yarışma kartları, sadece başvurusu açık olanlar | Hayır |
 | Kaggle | Kaggle API | `KAGGLE_USERNAME`, `KAGGLE_KEY` |
-| LinkedIn, Instagram, X, TikTok, üniversiteler (edu.tr), Kommunity, GDG, Patika, BTK Akademi, Teknofest, Medium… | Google araması (Serper.dev), son 1 ay, `site:` sorguları | `SERPER_API_KEY` |
-| Sosyal gönderilerin ayıklanması | Claude: gerçekten açık bir yarışma mı, adı / son başvuru / düzenleyen | `ANTHROPIC_API_KEY` (opsiyonel) |
+| LinkedIn, Instagram, X, TikTok, üniversiteler (edu.tr), Kommunity, GDG, Patika, BTK Akademi, Medium… | **Claude Code GitHub Action**: web araması yapar, açık yarışmaları ayıklar, `data/claude_found.json` dosyasına yazar | `CLAUDE_CODE_OAUTH_TOKEN` (Claude Pro/Max aboneliği, API ücreti yok) |
+| Aynı kaynaklar (alternatif) | Google araması (Serper.dev) + opsiyonel Claude API ayıklaması | `SERPER_API_KEY`, `ANTHROPIC_API_KEY` |
 
-Instagram/TikTok/X/LinkedIn doğrudan kazımayı engellediği için bu gönderiler Google indeksinden bulunur. `ANTHROPIC_API_KEY` yoksa anahtar kelime + tarih sezgiseli kullanılır; daha gürültülü olur.
+Instagram/TikTok/X/LinkedIn doğrudan kazımayı engellediği için bu gönderiler arama motoru üzerinden bulunur.
 
 ## Kurulum (GitHub)
 
-1. **Settings → Secrets and variables → Actions** altına ekle:
-   - `SERPER_API_KEY` — https://serper.dev (ücretsiz 2.500 sorgu; günde ~14 sorgu kullanılır)
-   - `ANTHROPIC_API_KEY` — https://console.anthropic.com (opsiyonel)
-   - `KAGGLE_USERNAME`, `KAGGLE_KEY` (opsiyonel)
-   - Değişken (Variables) `CLAUDE_MODEL` — varsayılan `claude-opus-5-5`; daha ucuz için `claude-haiku-5-5`
+1. Claude abonelik token'ını oluştur ve secret olarak ekle:
+   ```bash
+   claude setup-token
+   gh secret set CLAUDE_CODE_OAUTH_TOKEN -R ayse-solmaz/hackathon-radar
+   ```
+   Opsiyonel secret'lar: `KAGGLE_USERNAME`, `KAGGLE_KEY`, `SERPER_API_KEY`, `ANTHROPIC_API_KEY`.
 2. **Settings → Pages → Source: GitHub Actions**
 3. **Actions → Günlük güncelleme ve yayın → Run workflow**
 

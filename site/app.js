@@ -78,9 +78,19 @@ function render() {
 
   if ($("sort").value === "new") {
     list = list.slice().sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""));
+  } else if ($("sort").value === "tr") {
+    // stable sort: Turkey events first, each group keeps deadline order
+    list = list.slice().sort((a, b) => b.turkey - a.turkey);
   }
 
-  $("grid").innerHTML = list.map(card).join("");
+  const trCount = list.filter((e) => e.turkey).length;
+  const sectioned = $("sort").value === "tr" && trCount > 0 && trCount < list.length;
+  $("grid").innerHTML = sectioned
+    ? `<h2 class="section">🇹🇷 Türkiye <small>${trCount}</small></h2>` +
+      list.slice(0, trCount).map(card).join("") +
+      `<h2 class="section">🌍 Online & dünya <small>${list.length - trCount}</small></h2>` +
+      list.slice(trCount).map(card).join("")
+    : list.map(card).join("");
   $("count").textContent = `${list.length} etkinlik gösteriliyor`;
   $("empty").hidden = list.length > 0;
   store("filters", JSON.stringify({ type: state.type, where, source, sort: $("sort").value }));
@@ -102,7 +112,8 @@ async function init() {
   state.events = data.events;
 
   const updated = new Date(data.updated_at).toLocaleString("tr-TR", { dateStyle: "medium", timeStyle: "short" });
-  $("meta").textContent = `${data.count} aktif etkinlik · Güncellendi: ${updated}`;
+  const tr = state.events.filter((e) => e.turkey).length;
+  $("meta").textContent = `${data.count} aktif etkinlik · 🇹🇷 ${tr} Türkiye · Güncellendi: ${updated}`;
 
   const sources = [...new Set(state.events.map((e) => e.source))].sort((a, b) => a.localeCompare(b, "tr"));
   $("source").innerHTML += sources.map((s) => `<option>${esc(s)}</option>`).join("");

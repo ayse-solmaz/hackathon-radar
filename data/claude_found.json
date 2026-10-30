@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "title": "Future Istanbul Datathon",
+      "url": "https://www.toplumsal.com.tr/haber/istanbul-un-gelecegi-icin-veri-odakli-cozumler-gelistiriliyor_31856/",
+      "platform": "Web",
+      "type": "datathon",
+      "organizer": "BELBİM ve Tech Istanbul (İBB)",
+      "deadline": "2026-11-01",
+      "event_date": "2026-11-07",
+      "location": "İstanbul",
+      "online": false,
+      "turkey": true,
+      "summary": "İstanbul'un geleceğine yönelik dijital ödeme, akıllı şehir ve finansal kapsayıcılık alanlarında veri odaklı çözümler geliştirilecek datathon. Başvuru tech.istanbul üzerinden."
+    },
+    {
+      "title": "Yeni Nesil Sağlık Hareketi Ideathonu 2026",
+      "url": "https://ideathon.saglikhakki.net/",
+      "platform": "Web",
+      "type": "ideathon",
+      "organizer": "AstraZeneca Türkiye, İhtiyaç Haritası ve Sağlık Hakkı Derneği",
+      "deadline": "2026-11-01",
+      "event_date": "2026-11-21",
+      "location": "Online",
+      "online": true,
+      "turkey": true,
+      "summary": "18-24 yaş gençlerin 'Kronik Hastalıklarla Mücadelede Gençlerin Liderliği' temasıyla çözüm üreteceği çevrim içi ideathon; toplam 395.000 TL ödül."
+    },
+    {
+      "title": "COP31 İklim Teknolojileri Creathonu 2026",
+      "url": "https://yesilhaber.net/cop31-iklim-creathonu-basvuru/",
+      "platform": "Web",
+      "type": "hackathon",
+      "organizer": "T3 Vakfı, T3 Girişim Merkezi ve Sıfır Atık Vakfı",
+      "deadline": "2026-11-02",
+      "event_date": "2026-11-15",
+      "location": "Antalya",
+      "online": false,
+      "turkey": true,
+      "summary": "COP31 kapsamında iklim teknolojileri temalı creathon; final 15-16 Kasım'da Antalya Green Zone'da yapılacak. Başvuru T3 kayıt sistemi üzerinden."
+    },
+    {
+      "title": "Ar-Ge Maraton Hızlandırma Programı 3: Fikrinle Aydınlat",
+      "url": "https://www.omu.edu.tr/tr/icerik/duyuru/ar-ge-maraton-hizlandirma-programi-3-fikrinle-aydinlat",
+      "platform": "Üniversite",
+      "type": "yarisma",
+      "organizer": "OMÜ Teknoloji Transfer Ofisi, Samsun Üniversitesi ve YEDAŞ",
+      "deadline": "2026-11-15",
+      "event_date": null,
+      "location": "Samsun",
+      "online": null,
+      "turkey": true,
+      "summary": "Elektrik dağıtım sektöründe dijital dönüşüm ve sürdürülebilirlik odaklı Ar-Ge hızlandırma yarışması; toplam 370 bin TL ödül. Başvurular 15 Kasım'a uzatıldı."
+    },
+    {
+      "title": "MediaMarkt Startup Challenge (9. Dönem)",
+      "url": "https://www.urfadabugun.com/haber/264446/mediamarkt-startup-challenge-yarismasi-icin-basvurular-basladi.html",
+      "platform": "Web",
+      "type": "yarisma",
+      "organizer": "MediaMarkt",
+      "deadline": "2026-11-16",
+      "event_date": "2027-01-13",
+      "location": null,
+      "online": null,
+      "turkey": true,
+      "summary": "Perakende ve teknoloji odaklı girişimlerin yarıştığı startup yarışmasının 9. dönemi; final 13 Ocak 2027'de düzenlenecek."
+    },
+    {
+      "title": "VakıfBank Hack to the Future Hackathonu",
+      "url": "https://hacktothefuture.com.tr",
+      "platform": "Web",
+      "type": "hackathon",
+      "organizer": "VakıfBank",
+      "deadline": "2026-11-20",
+      "event_date": "2026-12-13",
+      "location": "İstanbul",
+      "online": false,
+      "turkey": true,
+      "summary": "Üniversite öğrenci ve mezunlarının 2-4 kişilik takımlarla dijital bankacılık, yenilikçi ürün ve sürdürülebilirlik temalarında proje geliştireceği hackathon; birinciye 100.000 TL."
+    },
+    {
+      "title": "Fountain Hackathon 2026",
+      "url": "https://www.fountainhackathon.com/",
+      "platform": "Web",
+      "type": "hackathon",
+      "organizer": "Fountain",
+      "deadline": null,
+      "event_date": "2026-11-28",
+      "location": "İstanbul",
+      "online": false,
+      "turkey": true,
+      "summary": "28-29 Kasım'da Tech Istanbul Şişli'de yapılacak, dört temalı ve 50.000 TL ödül havuzlu ücretsiz hackathon; başvurular yakında açılacak."
+    },
+    {
+      "title": "Türkiye'nin Kadın Girişimcisi Yarışması 2026",
+      "url": "https://www.garantibbvakadingirisimci.com/yarisma-tanitimi",
+      "platform": "Web",
+      "type": "yarisma",
+      "organizer": "Garanti BBVA, KAGİDER ve Ekonomist Dergisi",
+      "deadline": "2026-11-30",
+      "event_date": null,
+      "location": null,
+      "online": null,
+      "turkey": true,
+      "summary": "20. kez düzenlenen, beş kategoride toplam 3 milyon TL ödüllü kadın girişimciler yarışması; başvurular 30 Kasım'a kadar devam ediyor."
+    }
+  ]
+}

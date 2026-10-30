@@ -150,10 +150,49 @@ def heuristic(r: dict) -> dict | None:
     }
 
 
+CLAUDE_FILE = CACHE.parent / "claude_found.json"
+SOCIAL = ("LinkedIn", "Instagram", "X", "TikTok")
+TYPES = ("hackathon", "ideathon", "datathon", "yarisma")
+
+
+def from_claude_code() -> list[Event]:
+    """Results written by the Claude Code GitHub Action step (subscription, no API key)."""
+    if not CLAUDE_FILE.exists():
+        print("  data/claude_found.json yok (Claude Code adımı çalışmadı)")
+        return []
+    try:
+        raw = json.loads(CLAUDE_FILE.read_text(encoding="utf-8"))
+    except ValueError as e:
+        print(f"  claude_found.json okunamadı: {e}")
+        return []
+    items = raw.get("events", []) if isinstance(raw, dict) else raw
+    out = []
+    for d in items:
+        if not isinstance(d, dict) or not d.get("title") or not str(d.get("url", "")).startswith("http"):
+            continue
+        platform = d.get("platform") or "Web"
+        kind = d.get("type") if d.get("type") in TYPES else (detect_type(d["title"], d.get("summary")) or "yarisma")
+        out.append(Event(
+            title=d["title"],
+            url=d["url"],
+            source=platform,
+            type=kind,
+            organizer=d.get("organizer"),
+            location=d.get("location"),
+            online=d.get("online"),
+            turkey=bool(d.get("turkey")),
+            start=d.get("event_date"),
+            deadline=d.get("deadline"),
+            summary=d.get("summary"),
+            tags=["sosyal"] if platform in SOCIAL else [],
+        ))
+    return out
+
+
 def collect() -> list[Event]:
     key = os.getenv("SERPER_API_KEY")
     if not key:
-        print("  SERPER_API_KEY yok, sosyal/üniversite araması atlandı")
+        print("  SERPER_API_KEY yok, Serper araması atlandı")
         return []
 
     results: dict[str, dict] = {}
@@ -187,6 +226,6 @@ def collect() -> list[Event]:
             deadline=d.get("deadline"),
             summary=(r.get("snippet") or "")[:280] or None,
             image=r.get("imageUrl"),
-            tags=["sosyal"] if r["label"] in ("LinkedIn", "Instagram", "X", "TikTok") else [],
+            tags=["sosyal"] if r["label"] in SOCIAL else [],
         ))
     return out

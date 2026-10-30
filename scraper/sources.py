@@ -83,9 +83,23 @@ def mlh() -> list[Event]:
 
 
 LUMA_API = "https://api.lu.ma/discover/get-paginated-events"
-LUMA_QUERIES = ["hackathon", "datathon", "ideathon", "hackaton", "buildathon", "game jam"]
+LUMA_QUERIES = [
+    "hackathon", "datathon", "ideathon", "hackaton", "buildathon", "game jam",
+    "hackathon istanbul", "hackathon ankara", "hackathon türkiye", "yarışma", "fikir maratonu",
+]
 # Turkish cities: geo discovery returns everything nearby, so we keyword-filter.
-LUMA_PLACES = [(41.01, 28.96), (39.93, 32.86), (38.42, 27.14)]
+LUMA_PLACES = [
+    (41.01, 28.96),  # İstanbul
+    (39.93, 32.86),  # Ankara
+    (38.42, 27.14),  # İzmir
+    (40.19, 29.06),  # Bursa
+    (39.78, 30.52),  # Eskişehir
+    (36.90, 30.70),  # Antalya
+    (40.77, 29.92),  # Kocaeli
+    (37.87, 32.48),  # Konya
+    (41.00, 39.72),  # Trabzon
+]
+LUMA_PAGES_PER_PLACE = 3
 
 
 def _luma_event(entry: dict) -> Event | None:
@@ -120,16 +134,51 @@ def luma() -> list[Event]:
     reqs = [{"query": q, "pagination_limit": 50} for q in LUMA_QUERIES]
     reqs += [{"latitude": lat, "longitude": lon, "pagination_limit": 50} for lat, lon in LUMA_PLACES]
     for params in reqs:
-        try:
-            data = get(LUMA_API, params=params).json()
-        except Exception as e:
-            print(f"  luma {params}: {e}")
-            continue
-        for entry in data.get("entries", []):
-            ev = _luma_event(entry)
-            if ev:
-                out.append(ev)
+        pages = LUMA_PAGES_PER_PLACE if "latitude" in params else 1
+        for _ in range(pages):
+            try:
+                data = get(LUMA_API, params=params).json()
+            except Exception as e:
+                print(f"  luma {params}: {e}")
+                break
+            for entry in data.get("entries", []):
+                ev = _luma_event(entry)
+                if ev:
+                    out.append(ev)
+            if not (data.get("has_more") and data.get("next_cursor")):
+                break
+            params = params | {"pagination_cursor": data["next_cursor"]}
     return out
+
+
+DEADLINE_IN_TEXT = re.compile(
+    r"(\d{1,2}(?:\s*[–-]\s*\d{1,2})?\s+[A-Za-zÇĞİÖŞÜçğıöşü]+(?:\s+\d{4})?)\s*[–-]?\s*Son\s+Başvuru",
+    re.I,
+)
+DEADLINE_AFTER_LABEL = re.compile(
+    r"Son\s+Başvuru(?:\s+Tarihi)?\s*[:\-–]?\s*(\d{1,2}\s+[A-Za-zÇĞİÖŞÜçğıöşü]+(?:\s+\d{4})?|\d{1,2}[./]\d{1,2}[./]\d{4})",
+    re.I,
+)
+
+
+def verify_deadline(e: Event) -> Event:
+    """Listing cards often show dates without a year ('31 Ekim'); confirm on the detail page."""
+    if not e.deadline or e.deadline >= TODAY.isoformat():
+        e.deadline = deadline_from_page(e.url) or e.deadline
+    return e
+
+
+def deadline_from_page(url: str) -> str | None:
+    """Read 'Son Başvuru' from an event detail page (Turkish platforms)."""
+    try:
+        text = BeautifulSoup(get(url).text, "html.parser").get_text(" ", strip=True)
+    except Exception:
+        return None
+    for pat in (DEADLINE_IN_TEXT, DEADLINE_AFTER_LABEL):
+        m = pat.search(text)
+        if m and (d := parse_tr_date(m.group(1))):
+            return iso(d)
+    return None
 
 
 def coderspace() -> list[Event]:
@@ -149,9 +198,11 @@ def coderspace() -> list[Event]:
         loc = d.get("location") or {}
         online = "Online" in d.get("eventAttendanceMode", "")
         img = d.get("image")
+        url = loc.get("url") or d.get("url") or "https://coderspace.io/etkinlikler"
         out.append(Event(
             title=html.unescape(name),
-            url=loc.get("url") or d.get("url") or "https://coderspace.io/etkinlikler",
+            url=url,
+            deadline=deadline_from_page(url),
             source="Coderspace",
             type=kind,
             organizer="Coderspace",
@@ -202,10 +253,24 @@ def techcareer() -> list[Event]:
     return out
 
 
+YOUTHALL_PAGES = ["https://www.youthall.com/tr/events/"] + [
+    f"https://www.youthall.com/tr/etkinlikler/tumu?page={p}" for p in range(1, 6)
+]
+
+
 def youthall() -> list[Event]:
     out = []
-    soup = BeautifulSoup(get("https://www.youthall.com/tr/events/").text, "html.parser")
-    for card in soup.select("article.events-card"):
+    cards = []
+    for url in YOUTHALL_PAGES:
+        try:
+            found = BeautifulSoup(get(url).text, "html.parser").select("article.events-card")
+        except Exception:
+            continue
+        if not found and "page=" in url:
+            break
+        cards += found
+    seen: set[str] = set()
+    for card in cards:
         a = card.select_one("a.events-card__link")
         img = card.select_one("img.events-card__img")
         title = img.get("alt") if img else (card.get_text(" ", strip=True)[:80])
@@ -216,9 +281,13 @@ def youthall() -> list[Event]:
         when = card.select_one(".events-card__when .events-card__val")
         dl = card.select_one(".events-card__deadline-val")
         org = card.select_one(".events-card__org-name")
-        out.append(Event(
+        url = "https://www.youthall.com" + a["href"] if a["href"].startswith("/") else a["href"]
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append(verify_deadline(Event(
             title=title,
-            url="https://www.youthall.com" + a["href"] if a["href"].startswith("/") else a["href"],
+            url=url,
             source="Youthall",
             type=kind,
             organizer=org.get_text(strip=True) if org else None,
@@ -228,13 +297,32 @@ def youthall() -> list[Event]:
             end=iso(parse_tr_date(when.get_text(" ", strip=True) if when else None)),
             deadline=iso(parse_tr_date(dl.get_text(strip=True) if dl else None)),
             image=img.get("src") if img else None,
-        ))
+        )))
     return out
 
 
+ANBEAN_PAGES = {
+    "": None,  # main listing: type detected from text
+    "hackathon/": "hackathon",
+    "ideathon/": "ideathon",
+    "yarisma/": "yarisma",
+}
+NOT_A_COMPETITION = re.compile(r"eğitim|bootcamp|zirve|summit|program\b|programı|kulübü\b", re.I)
+
+
 def anbean() -> list[Event]:
+    out, seen = [], set()
+    for path, category in ANBEAN_PAGES.items():
+        try:
+            soup = BeautifulSoup(get(f"https://www.anbeankampus.co/etkinlikler/{path}").text, "html.parser")
+        except Exception:
+            continue
+        out += _anbean_cards(soup, category, seen)
+    return out
+
+
+def _anbean_cards(soup: BeautifulSoup, category: str | None, seen: set[str]) -> list[Event]:
     out = []
-    soup = BeautifulSoup(get("https://www.anbeankampus.co/etkinlikler").text, "html.parser")
     for card in soup.select("div.mini-eventCard"):
         a = card.find("a", href=True)
         h6 = card.find("h6")
@@ -243,20 +331,26 @@ def anbean() -> list[Event]:
         title = h6.get_text(strip=True)
         typ = card.select_one(".mini-eventCard-headerType")
         typ_text = typ.get_text(" ", strip=True) if typ else ""
-        kind = detect_type(title, typ_text)
-        if not kind:
+        kind = detect_type(title, typ_text) or category
+        if not kind or (NOT_A_COMPETITION.search(title) and not detect_type(title)):
             continue
         dates = {}
         for item in card.select(".mini-eventCard-dateItem"):
             spans = [s.get_text(strip=True) for s in item.find_all("span")]
             if len(spans) >= 2:
                 dates[spans[0]] = spans[1]
+        if not dates:  # category pages also list old, undated events
+            continue
         img = card.select_one("img.mini-eventCard-HeaderImage")
         desc = card.select_one(".mini-eventCard-titleDescription p")
         href = a["href"]
-        out.append(Event(
+        url = "https://www.anbeankampus.co" + href if href.startswith("/") else href
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append(verify_deadline(Event(
             title=title,
-            url="https://www.anbeankampus.co" + href if href.startswith("/") else href,
+            url=url,
             source="Anbean Kampüs",
             type=kind,
             location="Türkiye",
@@ -266,7 +360,36 @@ def anbean() -> list[Event]:
             deadline=iso(parse_tr_date(dates.get("Son Başvuru"))),
             image=img.get("src") if img else None,
             summary=desc.get_text(strip=True) if desc else None,
+        )))
+    return out
+
+
+def teknofest() -> list[Event]:
+    """TEKNOFEST competitions; only those whose card is not marked 'Başvuru Tamamlandı'."""
+    out, seen = [], set()
+    soup = BeautifulSoup(get("https://www.teknofest.org/tr/yarismalar/").text, "html.parser")
+    for a in soup.select('a[href^="/tr/yarismalar/"]'):
+        name = a.select_one("span.competition")
+        if not name or a["href"] in seen:
+            continue
+        seen.add(a["href"])
+        status = (a.select_one("button.comtpBtn") or a).get_text(" ", strip=True)
+        if re.search(r"tamamland|kapand|sona er", status, re.I):
+            continue
+        url = "https://www.teknofest.org" + a["href"]
+        e = verify_deadline(Event(
+            title=name.get_text(strip=True),
+            url=url,
+            source="TEKNOFEST",
+            type=detect_type(name.get_text()) or "yarisma",
+            organizer="TEKNOFEST",
+            location="Türkiye",
+            turkey=True,
+            image=(a.find("img") or {}).get("src"),
         ))
+        # Undated TEKNOFEST cards stay visible only while the card says applications are open.
+        if e.deadline or re.search(r"başvur", status, re.I):
+            out.append(e)
     return out
 
 
@@ -307,6 +430,7 @@ ALL = {
     "Techcareer": techcareer,
     "Youthall": youthall,
     "Anbean Kampüs": anbean,
+    "TEKNOFEST": teknofest,
     "Kaggle": kaggle,
 }
 
