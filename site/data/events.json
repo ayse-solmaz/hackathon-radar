@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-10-30T10:59:01+00:00",
- "count": 384,
+ "updated_at": "2026-10-30T11:03:07+00:00",
+ "count": 387,
  "sources": {
   "Devpost": 177,
   "MLH": 64,
-  "Luma": 253,
+  "Luma": 324,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
@@ -1750,6 +1750,25 @@
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "fe1b0d5fc55b"
+  },
+  {
+   "title": "Mixpanel x Replit - Ship It: The Product Builders' Hackathon",
+   "url": "https://luma.com/hkl88ogt",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Mixpanel",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-05",
+   "end": "2026-11-06",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/bi/bfeb90a7-aaa3-4a70-9c15-9f83158e3642.png",
+   "summary": "Mixpanel",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "b48680b9206e"
   },
   {
    "title": "PowerHack",
@@ -7100,6 +7119,25 @@
    "id": "3293d91a5dbd"
   },
   {
+   "title": "EndCancer.Life Winter Pitch Competition",
+   "url": "https://luma.com/81jvtmcl",
+   "source": "Luma",
+   "type": "yarisma",
+   "organizer": "EndCancer.Life",
+   "location": "Online (joining link sent before the event)",
+   "online": false,
+   "turkey": false,
+   "start": "2027-02-10",
+   "end": "2027-02-10",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/2u/a755a9b4-4834-4c57-973a-c747b5a9fbc3.png",
+   "summary": "EndCancer.Life",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "c0f2dd948f10"
+  },
+  {
    "title": "DeveloperWeek 2027 Hackathon",
    "url": "https://developerweek-2027-hackathon.devpost.com/",
    "source": "Devpost",
@@ -7356,6 +7394,25 @@
    ],
    "first_seen": "2026-10-30",
    "id": "d5e441ac6dd4"
+  },
+  {
+   "title": "AI Vibecoding Hackathon 2027",
+   "url": "https://luma.com/exx7cd47",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Bengaluru, India",
+   "online": false,
+   "turkey": false,
+   "start": "2027-02-21",
+   "end": "2027-02-22",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/gallery-images/n2/0a544d41-3888-47b5-bdbc-c5d8cc5131e6",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "c0c6e68d53a8"
   },
   {
    "title": "HackHERS ",
