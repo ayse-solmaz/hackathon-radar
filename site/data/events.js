@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-10-30T11:03:07+00:00",
- "count": 387,
+ "updated_at": "2026-10-30T12:40:27+00:00",
+ "count": 384,
  "sources": {
-  "Devpost": 177,
+  "Devpost": 176,
   "MLH": 64,
-  "Luma": 324,
+  "Luma": 326,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
@@ -60,29 +60,6 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "3d0a926b3204"
-  },
-  {
-   "title": "CodeSprint by Elite Coders",
-   "url": "https://codesprint-by-elitecoders.devpost.com/",
-   "source": "Devpost",
-   "type": "hackathon",
-   "organizer": "elite coders",
-   "location": "Online",
-   "online": true,
-   "turkey": false,
-   "start": null,
-   "end": null,
-   "deadline": "2026-10-30",
-   "prize": "₹ 30,000",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-   "summary": null,
-   "tags": [
-    "Beginner Friendly",
-    "Open Ended",
-    "Web"
-   ],
-   "first_seen": "2026-10-30",
-   "id": "d35d312c7736"
   },
   {
    "title": "Hack Fair @ Austin Tech Week - AITX & MLOps World Hackathon Showcase",
@@ -192,6 +169,25 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "028e9794df85"
+  },
+  {
+   "title": "NYC Frontier Hackathon: Build your Autonomous Code Factory",
+   "url": "https://luma.com/frontierNYC2",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Obvious Community Events",
+   "location": "New York, NY",
+   "online": false,
+   "turkey": false,
+   "start": "2026-10-30",
+   "end": "2026-10-30",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/4s/579616cf-eda2-4232-a6d4-2f798714b9e2.png",
+   "summary": "Obvious Community Events",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "22e67ea78788"
   },
   {
    "title": "Nebius x NVIDIA Global AI Hackathon",
@@ -1897,25 +1893,6 @@ window.HACKRADAR_DATA = {
    "id": "a6d79fb69db9"
   },
   {
-   "title": "GPU Programming Competition",
-   "url": "https://luma.com/tr-gpu-programming-i",
-   "source": "Luma",
-   "type": "yarisma",
-   "organizer": "Thinkin'Rocks Events",
-   "location": "Espoo, Finland",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/z0/c727cd31-ca6e-4f29-9ca7-c122b21faaef.png",
-   "summary": "Thinkin'Rocks Events",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "35339b2e95c4"
-  },
-  {
    "title": "Hack the Feed: Creator Tools Hackathon with Oriane, GMI Cloud & Lovable at Amplitude HQ!",
    "url": "https://luma.com/92iq2a12",
    "source": "Luma",
@@ -3450,6 +3427,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "28bb44385848"
+  },
+  {
+   "title": "Macau Grok Bot Community Hackathon",
+   "url": "https://luma.com/spacexai-macau-hackathlon-nov",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "SpaceXSI for Macau",
+   "location": "Macao",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-12",
+   "end": "2026-11-14",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/wl/a952e500-d06b-46cd-aef1-32ae82a659dd.png",
+   "summary": "SpaceXSI for Macau",
+   "tags": [],
+   "first_seen": "2026-10-30",
+   "id": "e8dc106a6524"
   },
   {
    "title": "Scope-AI-Thon 2026 - AI for Detection of Acute Patient Deterioration",
@@ -5075,25 +5071,6 @@ window.HACKRADAR_DATA = {
    "id": "dd7b4b0a53d6"
   },
   {
-   "title": "Personal Agents Hackathon",
-   "url": "https://luma.com/personalagenthack",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "tokens&",
-   "location": "San Francisco, CA",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-20",
-   "end": "2026-11-21",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/51/056914b0-798e-4849-9227-b2d4d1e94c01.png",
-   "summary": "tokens&",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "9251a63d77c5"
-  },
-  {
    "title": "STEM2Connect AI Hackathon",
    "url": "https://stem2connect-online-hackathon.devpost.com/",
    "source": "Devpost",
@@ -5134,25 +5111,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "53adbde00011"
-  },
-  {
-   "title": "Tanda AI Hackathon: What if…?",
-   "url": "https://luma.com/n0sbm2px",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Fortitude Valley, QLD",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-20",
-   "end": "2026-11-21",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/u1/aa3f4b76-4a49-4f34-9587-e1caddbe84c6.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "0ed476039f38"
   },
   {
    "title": "Teens Hack Houston Hackathon",
@@ -6085,25 +6043,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "439e3a51b094"
-  },
-  {
-   "title": "Finance Engineer Hackathon",
-   "url": "https://luma.com/umg16123",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Paris, France",
-   "online": false,
-   "turkey": false,
-   "start": "2026-12-02",
-   "end": "2026-12-02",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/fe/678d6a5e-7591-43fc-b534-09d9b13f0bf4.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "7d7e21b0bda1"
   },
   {
    "title": "Understanding Data For AI and Machine Learning Hackathons",
