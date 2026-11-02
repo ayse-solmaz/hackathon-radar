@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-11-02T08:02:03+00:00",
- "count": 360,
+ "updated_at": "2026-11-02T08:02:56+00:00",
+ "count": 364,
  "sources": {
   "Devpost": 165,
   "MLH": 64,
-  "Luma": 255,
+  "Luma": 324,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
@@ -622,6 +622,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "fe1b0d5fc55b"
+  },
+  {
+   "title": "Mixpanel x Replit - Ship It: The Product Builders' Hackathon",
+   "url": "https://luma.com/hkl88ogt",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Mixpanel",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-05",
+   "end": "2026-11-06",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/bi/bfeb90a7-aaa3-4a70-9c15-9f83158e3642.png",
+   "summary": "Mixpanel",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "b48680b9206e"
   },
   {
    "title": "PowerHack",
@@ -2273,6 +2292,25 @@ window.HACKRADAR_DATA = {
    "id": "e2a144b7428c"
   },
   {
+   "title": "NEN Challenge — McMaster University",
+   "url": "https://luma.com/ju2qwutm",
+   "source": "Luma",
+   "type": "yarisma",
+   "organizer": "Personal",
+   "location": "Hamilton, ON",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/88/29d3d191-7421-4a24-b0f3-df24b7b5dc14.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "6cffe48a5cb3"
+  },
+  {
    "title": "Solving African Challenges with Data Science",
    "url": "https://luma.com/i4l6oj0y",
    "source": "Luma",
@@ -3730,6 +3768,25 @@ window.HACKRADAR_DATA = {
    "id": "b707e97365e1"
   },
   {
+   "title": "NASA Space Apps Hackathon",
+   "url": "https://luma.com/0xx0re58",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "ACS 120 UC Merced",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-14",
+   "end": "2026-11-16",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/gallery-images/6b/16e18c71-82a1-4370-a531-7a49d7f2f6f3.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "9879b0e08a54"
+  },
+  {
    "title": "UGREEN Hackathon 2026 on AI NAS",
    "url": "https://ugreenhackathon.devpost.com/",
    "source": "Devpost",
@@ -3975,6 +4032,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "080f28abd90b"
+  },
+  {
+   "title": "Kane CLI Online Hackathon",
+   "url": "https://luma.com/kanecli-online-hackathon",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Online Hackathon",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/7j/92c97bbf-99ba-4de9-a88e-4db4f814ac9f.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "2443239c83f7"
   },
   {
    "title": "Teachers AI Hackathon",
