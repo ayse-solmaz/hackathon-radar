@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-02T08:02:56+00:00",
+ "updated_at": "2026-11-02T11:45:53+00:00",
  "count": 364,
  "sources": {
-  "Devpost": 165,
+  "Devpost": 166,
   "MLH": 64,
-  "Luma": 324,
+  "Luma": 316,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 2,
@@ -750,25 +750,6 @@
    "id": "633da5f0ca1e"
   },
   {
-   "title": "Brand New Worlds Hackathon",
-   "url": "https://luma.com/k4zzmgpa",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Cambridge, MA",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-05",
-   "end": "2026-11-07",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/yb/154b93f8-ff1a-4fa3-891b-8043e0fd1fb2.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-02",
-   "id": "1e4e176f430f"
-  },
-  {
    "title": "Cursor x Sandbox Hackathon | Stuttgart",
    "url": "https://luma.com/spacexai-tueh",
    "source": "Luma",
@@ -1324,7 +1305,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0abde-7c6a-f0b2-52d9-1ab37661feee/gullhacks_e07f1313522f.svg",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0abde-7c6a-f0b2-52d9-1ab37661feee/gullhacks_29a1877b3e7e.svg",
    "summary": null,
    "tags": [
     "Software"
@@ -1473,7 +1454,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0f9ce-2aec-1d0e-a9c8-f5b4213b0d1b/hacktheburgh-9f_204a072255df_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0f9ce-2aec-1d0e-a9c8-f5b4213b0d1b/hacktheburgh-9f_b9ed8f78b706_medium.png",
    "summary": null,
    "tags": [
     "Software"
@@ -1516,7 +1497,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/019f48c3-b33d-bdda-d714-5afadd68324e/hackutd-06_9a280a2f4e65_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/019f48c3-b33d-bdda-d714-5afadd68324e/hackutd-06_6547ed242ab5_medium.png",
    "summary": null,
    "tags": [],
    "first_seen": "2026-10-30",
@@ -1558,7 +1539,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/019eff28-42a4-3774-ce99-86bf84e3e9d6/makecu-5d_999fc3e9e919_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/019eff28-42a4-3774-ce99-86bf84e3e9d6/makecu-5d_d8b5d62b32a6_medium.png",
    "summary": null,
    "tags": [],
    "first_seen": "2026-10-30",
@@ -1662,7 +1643,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0ec52-db7c-0b5a-048b-65e2ac93ab5f/sharkbyte-34_9c4decb0f3a5_medium.jpeg",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0ec52-db7c-0b5a-048b-65e2ac93ab5f/sharkbyte-34_f60804334d08_medium.jpeg",
    "summary": null,
    "tags": [
     "Software"
@@ -1729,7 +1710,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a03900-e3b1-9c45-b1e1-8bb40989cb8e/tamu-datathon-ce_a58b8ccbacfb_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a03900-e3b1-9c45-b1e1-8bb40989cb8e/tamu-datathon-ce_653a27740c82_medium.png",
    "summary": null,
    "tags": [],
    "first_seen": "2026-10-30",
@@ -1767,7 +1748,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a14113-89f7-abe2-97a0-411e5222d1e9/ub-hacking-5d_b36b682fbc4e_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a14113-89f7-abe2-97a0-411e5222d1e9/ub-hacking-5d_66a2babfc733_medium.png",
    "summary": null,
    "tags": [
     "Software",
@@ -1812,7 +1793,7 @@
    "end": "2026-11-08",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0a682-b6ce-34cc-4fb5-70e9a47a3a6c/ycp-hacks-2e_72ebc9026965_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0a682-b6ce-34cc-4fb5-70e9a47a3a6c/ycp-hacks-2e_523a8133ef29_medium.png",
    "summary": null,
    "tags": [],
    "first_seen": "2026-10-30",
@@ -2151,25 +2132,6 @@
    "id": "f7fdf1d9ad5e"
   },
   {
-   "title": "Hackathon Veracruz Tech Week 2026",
-   "url": "https://luma.com/qm1yryjt",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Veracruz Tech Week",
-   "location": "Veracruz, Mexico",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-11",
-   "end": "2026-11-12",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/k8/76daba1c-cdc8-4aba-ae7f-83c7104127b4.jpg",
-   "summary": "Veracruz Tech Week",
-   "tags": [],
-   "first_seen": "2026-11-02",
-   "id": "eb6ec082a843"
-  },
-  {
    "title": "Legal AI Buildathon",
    "url": "https://luma.com/1k32g7mi",
    "source": "Luma",
@@ -2229,25 +2191,6 @@
    ],
    "first_seen": "2026-10-30",
    "id": "eb59c15e5f69"
-  },
-  {
-   "title": "Cambridge EduX Hackathon 2026",
-   "url": "https://luma.com/6sv64tnt",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Cambridge, United Kingdom",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/in/f7902eec-f5bb-4dbb-88ed-f4776bff8fe0.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "8becaca72d54"
   },
   {
    "title": "Coffee & Build | Mobile App Hackathon",
@@ -3290,7 +3233,7 @@
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/0d/cfdb6eb4-d7ac-4885-9a4a-96448e41c42c.png",
+   "image": "https://images.lumacdn.com/uploads/jz/db596494-e72c-4611-a73b-5d2b84a1a418.png",
    "summary": "Imperial AI Week (9th-15 Nov)",
    "tags": [],
    "first_seen": "2026-11-02",
@@ -3654,6 +3597,25 @@
    "id": "d1332b51c10d"
   },
   {
+   "title": "VexoHacks: An AI Wearables Hackathon",
+   "url": "https://luma.com/chgfm6ec",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/nw/0f616b13-7af2-4105-84f0-ae14c0397516.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "f7e9b6cba4b1"
+  },
+  {
    "title": "Women Who AI Buildathon",
    "url": "https://luma.com/9vivudhs",
    "source": "Luma",
@@ -3766,25 +3728,6 @@
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "b707e97365e1"
-  },
-  {
-   "title": "NASA Space Apps Hackathon",
-   "url": "https://luma.com/0xx0re58",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "ACS 120 UC Merced",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-14",
-   "end": "2026-11-16",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/gallery-images/6b/16e18c71-82a1-4370-a531-7a49d7f2f6f3.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-02",
-   "id": "9879b0e08a54"
   },
   {
    "title": "UGREEN Hackathon 2026 on AI NAS",
@@ -5135,6 +5078,25 @@
    "id": "f08d9f04c426"
   },
   {
+   "title": "Physical AI Hackathon Malaysia 2026",
+   "url": "https://luma.com/wui8rm7g",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Kuala Lumpur, Malaysia",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/nt/a1b14e83-c06c-4840-a7b3-098153c2b94c.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "bcb9bbb05fbf"
+  },
+  {
    "title": "Project-ZH Hack Day",
    "url": "https://project-zh.devpost.com/",
    "source": "Devpost",
@@ -5298,6 +5260,25 @@
    ],
    "first_seen": "2026-10-30",
    "id": "ca9659554fc3"
+  },
+  {
+   "title": "Prompt Startegy Hackathon",
+   "url": "https://luma.com/aaltoes-u79b",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Aaltoes Events",
+   "location": "Espoo, Finland",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/v5/28c75596-91c8-4be1-a400-24c9c9d1f494.png",
+   "summary": "Aaltoes Events",
+   "tags": [],
+   "first_seen": "2026-11-02",
+   "id": "b4a58e636c5b"
   },
   {
    "title": "WEB 3 Hackathon & Ideathon",
@@ -5660,6 +5641,27 @@
    ],
    "first_seen": "2026-10-31",
    "id": "1d9e630362ea"
+  },
+  {
+   "title": "HackSussex GameJam 2026",
+   "url": "https://hacksussex-gamejam-2026.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "HackSussex",
+   "location": "Brighton",
+   "online": false,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-12-06",
+   "prize": "£0",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/774/255/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Gaming"
+   ],
+   "first_seen": "2026-11-02",
+   "id": "98eb9267a82f"
   },
   {
    "title": "Revolution",
