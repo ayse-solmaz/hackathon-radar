@@ -1,32 +1,6 @@
 {
   "events": [
     {
-      "title": "Future Istanbul Datathon",
-      "url": "https://www.toplumsal.com.tr/haber/istanbul-un-gelecegi-icin-veri-odakli-cozumler-gelistiriliyor_31856/",
-      "platform": "Web",
-      "type": "datathon",
-      "organizer": "BELBİM ve Tech Istanbul (İBB)",
-      "deadline": "2026-11-01",
-      "event_date": "2026-11-07",
-      "location": "İstanbul",
-      "online": false,
-      "turkey": true,
-      "summary": "İstanbul'un geleceğine yönelik dijital ödeme, akıllı şehir ve finansal kapsayıcılık alanlarında veri odaklı çözümler geliştirilecek datathon. Başvuru tech.istanbul üzerinden."
-    },
-    {
-      "title": "Yeni Nesil Sağlık Hareketi Ideathonu 2026",
-      "url": "https://ideathon.saglikhakki.net/",
-      "platform": "Web",
-      "type": "ideathon",
-      "organizer": "AstraZeneca Türkiye, İhtiyaç Haritası ve Sağlık Hakkı Derneği",
-      "deadline": "2026-11-01",
-      "event_date": "2026-11-21",
-      "location": "Online",
-      "online": true,
-      "turkey": true,
-      "summary": "18-24 yaş gençlerin 'Kronik Hastalıklarla Mücadelede Gençlerin Liderliği' temasıyla çözüm üreteceği çevrim içi ideathon; toplam 395.000 TL ödül."
-    },
-    {
       "title": "COP31 İklim Teknolojileri Creathonu 2026",
       "url": "https://yesilhaber.net/cop31-iklim-creathonu-basvuru/",
       "platform": "Web",
@@ -105,17 +79,17 @@
       "summary": "20. kez düzenlenen, beş kategoride toplam 3 milyon TL ödüllü kadın girişimciler yarışması; başvurular 30 Kasım'a kadar devam ediyor."
     },
     {
-      "title": "COP31'e Manisa'dan Çözümler – Sanayi ve Kampüslerde Yeşil Dönüşüm Hackathonu",
-      "url": "https://manisatto.com.tr/p/etkinlikler-hackathon",
-      "platform": "Üniversite",
+      "title": "NASA Space Apps Challenge 2026",
+      "url": "https://www.bilimsenligi.com/dunyanin-en-buyuk-hackathonu-nasa-space-apps-challenge-2026-basliyor-bu-yil-corlu-da-ev-sahipleri-arasinda.html/",
+      "platform": "Web",
       "type": "hackathon",
-      "organizer": "Manisa TTO (Manisa Celal Bayar Üniversitesi Teknokent)",
-      "deadline": "2026-11-01",
-      "event_date": "2026-11-03",
-      "location": "Manisa",
-      "online": false,
+      "organizer": "NASA (Türkiye'de yerel ev sahipleri, ör. Çorlu)",
+      "deadline": null,
+      "event_date": "2026-11-14",
+      "location": "Çorlu / Online",
+      "online": null,
       "turkey": true,
-      "summary": "Sanayi ve kampüslerde yeşil dönüşüm temalı, 3–4 Kasım'da Manisa Teknokent'te 24 saat kesintisiz hackathon; 2-4 kişilik takımlar."
+      "summary": "Dünyanın en büyük hackathonu 14-15 Kasım 2026'da; kayıt ve takım oluşturma açık, Çorlu yerel ev sahipleri arasında."
     }
   ]
 }
