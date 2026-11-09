@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-11-09T10:43:48+00:00",
+ "updated_at": "2026-11-09T10:44:43+00:00",
  "count": 353,
  "sources": {
   "Devpost": 165,
   "MLH": 24,
-  "Luma": 273,
+  "Luma": 339,
   "Coderspace": 0,
   "Techcareer": 0,
   "Youthall": 2,
@@ -966,6 +966,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-05",
    "id": "e415b31b7e74"
+  },
+  {
+   "title": "Entropy Alignment Security Hackathon",
+   "url": "https://luma.com/or3d9qtg",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Berlin, Germany",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/en/5d29aac5-4994-4893-a300-f3600d5a2fcd.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-09",
+   "id": "33912feef184"
   },
   {
    "title": "Flushing Tech Meetup - Hackathon at TIQC",
@@ -3419,25 +3438,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "ca879277d0b8"
-  },
-  {
-   "title": "Cashfree × Sarvam AI Buildathon",
-   "url": "https://luma.com/azuhrzuj",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Bengaluru, India",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/pz/3511a822-d928-4cf8-b912-7819107bd522.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-09",
-   "id": "fe4447830e77"
   },
   {
    "title": "Cursor Hackathon Mendoza",
