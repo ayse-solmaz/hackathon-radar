@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "title": "COP31 İklim Teknolojileri Creathonu 2026",
-      "url": "https://yesilhaber.net/cop31-iklim-creathonu-basvuru/",
-      "platform": "Web",
-      "type": "hackathon",
-      "organizer": "T3 Vakfı, T3 Girişim Merkezi ve Sıfır Atık Vakfı",
-      "deadline": "2026-11-02",
-      "event_date": "2026-11-15",
-      "location": "Antalya",
-      "online": false,
-      "turkey": true,
-      "summary": "COP31 kapsamında iklim teknolojileri temalı creathon; final 15-16 Kasım'da Antalya Green Zone'da yapılacak. Başvuru T3 kayıt sistemi üzerinden."
-    },
-    {
       "title": "Ar-Ge Maraton Hızlandırma Programı 3: Fikrinle Aydınlat",
       "url": "https://www.omu.edu.tr/tr/icerik/duyuru/ar-ge-maraton-hizlandirma-programi-3-fikrinle-aydinlat",
       "platform": "Üniversite",
@@ -90,6 +77,19 @@
       "online": null,
       "turkey": true,
       "summary": "Dünyanın en büyük hackathonu 14-15 Kasım 2026'da; kayıt ve takım oluşturma açık, Çorlu yerel ev sahipleri arasında."
+    },
+    {
+      "title": "YAZGİT Yapay Zekâ Hackathonu 2026",
+      "url": "https://yazgit.com/hackathon",
+      "platform": "Üniversite",
+      "type": "hackathon",
+      "organizer": "Ankara Üniversitesi YAZGİT (OpenZeka iş birliğiyle)",
+      "deadline": null,
+      "event_date": "2026-12-11",
+      "location": "Ankara",
+      "online": false,
+      "turkey": true,
+      "summary": "Ankara Üniversitesi YAZGİT topluluğunun 11-12 Aralık 2026'daki yapay zekâ hackathonu; 2-4 kişilik üniversite öğrencisi takımları, 60.000 TL ödül. Başvuru formu açık, son tarih belirtilmemiş."
     }
   ]
 }
