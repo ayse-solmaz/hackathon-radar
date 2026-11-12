@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-11-11T11:32:09+00:00",
- "count": 376,
+ "updated_at": "2026-11-12T11:57:52+00:00",
+ "count": 382,
  "sources": {
-  "Devpost": 175,
+  "Devpost": 187,
   "MLH": 24,
-  "Luma": 342,
+  "Luma": 340,
   "Coderspace": 0,
   "Techcareer": 0,
   "Youthall": 2,
@@ -15,111 +15,6 @@ window.HACKRADAR_DATA = {
   "Sosyal (Serper)": 0
  },
  "events": [
-  {
-   "title": "Agentic Hackathon",
-   "url": "https://agentic-hackathon.devpost.com/",
-   "source": "Devpost",
-   "type": "hackathon",
-   "organizer": "Devin",
-   "location": "Online",
-   "online": true,
-   "turkey": false,
-   "start": null,
-   "end": null,
-   "deadline": "2026-11-11",
-   "prize": "$480",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/139/026/datas/medium_square.png",
-   "summary": null,
-   "tags": [
-    "Machine Learning/AI",
-    "Open Ended",
-    "Web"
-   ],
-   "first_seen": "2026-10-30",
-   "id": "7753f7a888ce"
-  },
-  {
-   "title": "DDIF2033 Creative GAME JAM 🎮",
-   "url": "https://luma.com/xm3ruyrb",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Dubai Drop",
-   "location": "Dubai, United Arab Emirates",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-11",
-   "end": "2026-11-11",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/04/33c2ad6b-c113-4616-9fa8-a7547bc9e1b5.png",
-   "summary": "Dubai Drop",
-   "tags": [],
-   "first_seen": "2026-11-11",
-   "id": "7f68e92801c0"
-  },
-  {
-   "title": "Health Hackathon 3.0",
-   "url": "https://health-hack-3.devpost.com/",
-   "source": "Devpost",
-   "type": "hackathon",
-   "organizer": "VIT Bhopal University",
-   "location": "VIT Bhopal University",
-   "online": false,
-   "turkey": false,
-   "start": null,
-   "end": null,
-   "deadline": "2026-11-11",
-   "prize": "$200,000",
-   "image": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-   "summary": null,
-   "tags": [
-    "Health",
-    "Lifehacks",
-    "Machine Learning/AI"
-   ],
-   "first_seen": "2026-11-05",
-   "id": "1ba4a299455f"
-  },
-  {
-   "title": "The Atomiq Hackathon | Qiskit Fall Fest 2026 at IEM",
-   "url": "https://atomiq-hackathon-qff-26-iem.devpost.com/",
-   "source": "Devpost",
-   "type": "hackathon",
-   "organizer": "Institute of Engineering & Management",
-   "location": "Online",
-   "online": true,
-   "turkey": false,
-   "start": null,
-   "end": null,
-   "deadline": "2026-11-11",
-   "prize": "₹ 10,000",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/555/650/datas/medium_square.png",
-   "summary": null,
-   "tags": [
-    "Quantum"
-   ],
-   "first_seen": "2026-10-30",
-   "id": "906e7d108ef2"
-  },
-  {
-   "title": "Big Idea Challenge Pitch Competition & Networking event",
-   "url": "https://luma.com/8t76znjq",
-   "source": "Luma",
-   "type": "yarisma",
-   "organizer": "Personal",
-   "location": "New York, NY",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-11",
-   "end": "2026-11-12",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/2v/4184e390-8299-408c-8a5f-6021340fdbba.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "67473fd7feeb"
-  },
   {
    "title": "Build with Agora: Hackathon Kickoff & Technical Deep Dive",
    "url": "https://luma.com/1qfbl8yh",
@@ -163,23 +58,25 @@ window.HACKRADAR_DATA = {
    "id": "f7fdf1d9ad5e"
   },
   {
-   "title": "Hackathon Veracruz Tech Week 2026",
-   "url": "https://luma.com/qm1yryjt",
-   "source": "Luma",
+   "title": "Deltahacks X Backboard.io",
+   "url": "https://deltahacksxbackboard.devpost.com/",
+   "source": "Devpost",
    "type": "hackathon",
-   "organizer": "Veracruz Tech Week",
-   "location": "Veracruz, Mexico",
+   "organizer": "DeltaHacks",
+   "location": "Marinucci Entrepreneurial Bridge",
    "online": false,
    "turkey": false,
-   "start": "2026-11-11",
-   "end": "2026-11-12",
-   "deadline": null,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-12",
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/k8/76daba1c-cdc8-4aba-ae7f-83c7104127b4.jpg",
-   "summary": "Veracruz Tech Week",
-   "tags": [],
-   "first_seen": "2026-11-07",
-   "id": "eb6ec082a843"
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/853/033/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Machine Learning/AI"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "c567f554e045"
   },
   {
    "title": "Legal AI Buildathon",
@@ -284,23 +181,27 @@ window.HACKRADAR_DATA = {
    "id": "50568f524b38"
   },
   {
-   "title": "Cambridge EduX Hackathon 2026",
-   "url": "https://luma.com/6sv64tnt",
-   "source": "Luma",
+   "title": "CodeCoogs x CenterPoint Hackathon",
+   "url": "https://codecoogsxcenterpointhackathon.devpost.com/",
+   "source": "Devpost",
    "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Cambridge, United Kingdom",
+   "organizer": "CenterPoint",
+   "location": "University of Houston PGH/Student Center",
    "online": false,
    "turkey": false,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "deadline": null,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-13",
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/in/f7902eec-f5bb-4dbb-88ed-f4776bff8fe0.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-05",
-   "id": "8becaca72d54"
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/853/579/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Enterprise",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "5dda0b541ccb"
   },
   {
    "title": "Coffee & Build | Mobile App Hackathon",
@@ -372,30 +273,11 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-13",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/nd/249c3ef4-10b8-4a1d-a4bf-9f7ecf1dbb4a.png",
+   "image": "https://images.lumacdn.com/uploads/2q/900c8841-02e7-42fa-9ecf-02ab690ca9ab.png",
    "summary": "Imperial AI Week (9th-15 Nov)",
    "tags": [],
    "first_seen": "2026-11-08",
    "id": "c6682dcdf83f"
-  },
-  {
-   "title": "Hackaton \"Game Factory 26\"",
-   "url": "https://luma.com/xktf3fy7",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Roma, Italy",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-11",
-   "end": "2026-11-13",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/5u/b291e5a2-6df5-40d9-b024-4187f286af4e.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-11",
-   "id": "1619688aff4e"
   },
   {
    "title": "Hackperimeter",
@@ -421,6 +303,25 @@ window.HACKRADAR_DATA = {
    "id": "e2a144b7428c"
   },
   {
+   "title": "Hustle Hours x Gen AI Summit Hackathon Pre-Party",
+   "url": "https://luma.com/ki4ckvc7",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Athina, Greece",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/v4/1b9cca74-cb12-496e-8f9c-60fc34fe61d8.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "f30bc8b82f23"
+  },
+  {
    "title": "NEN Challenge — McMaster University",
    "url": "https://luma.com/ju2qwutm",
    "source": "Luma",
@@ -438,25 +339,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-05",
    "id": "6cffe48a5cb3"
-  },
-  {
-   "title": "Qiskit Fall Fest 2026: Hackathon & Closing Ceremony",
-   "url": "https://luma.com/4bnvkmln",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Qiskit Fall Fest 2026",
-   "location": "Nairobi, Kenya",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/y7/d1f38187-2de7-4d98-9dd1-f424e075910d.png",
-   "summary": "Qiskit Fall Fest 2026",
-   "tags": [],
-   "first_seen": "2026-11-09",
-   "id": "725807717c4c"
   },
   {
    "title": "Solving African Challenges with Data Science",
@@ -657,25 +539,6 @@ window.HACKRADAR_DATA = {
    "id": "e7389cc9949c"
   },
   {
-   "title": "Boat Hackathon Christening & Kickoff",
-   "url": "https://luma.com/BoatHackathonChristening",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Boat Hackathon",
-   "location": "San Francisco, CA",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/3b/7b7ac9de-eda9-4384-a7e8-13aa4c60dc01.jpg",
-   "summary": "Boat Hackathon",
-   "tags": [],
-   "first_seen": "2026-11-11",
-   "id": "9d56cdd62c07"
-  },
-  {
    "title": "Building Better Worlds Hackathon",
    "url": "https://luma.com/rrnm4pul",
    "source": "Luma",
@@ -798,6 +661,25 @@ window.HACKRADAR_DATA = {
    "id": "e415b31b7e74"
   },
   {
+   "title": "Entropy Alignment Security Hackathon",
+   "url": "https://luma.com/or3d9qtg",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Berlin, Germany",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/en/5d29aac5-4994-4893-a300-f3600d5a2fcd.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "33912feef184"
+  },
+  {
    "title": "Flushing Tech Meetup - Hackathon at TIQC",
    "url": "https://luma.com/cnye62k6",
    "source": "Luma",
@@ -829,7 +711,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-14",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/yz/92b70f3a-aa83-4d68-a319-a49b904d798b.png",
+   "image": "https://images.lumacdn.com/uploads/5v/40c97468-2370-4d12-95fc-1221c42f5e2a.png",
    "summary": "AdaL",
    "tags": [],
    "first_seen": "2026-11-02",
@@ -879,7 +761,7 @@ window.HACKRADAR_DATA = {
    "source": "Luma",
    "type": "hackathon",
    "organizer": "HACK//OPS",
-   "location": "Munich, Germany",
+   "location": "München, Germany",
    "online": false,
    "turkey": false,
    "start": "2026-11-14",
@@ -977,7 +859,7 @@ window.HACKRADAR_DATA = {
    "source": "Luma",
    "type": "hackathon",
    "organizer": "Calgary Tech Thursday",
-   "location": "TBD",
+   "location": "Calgary, AB",
    "online": false,
    "turkey": false,
    "start": "2026-11-14",
@@ -1228,25 +1110,6 @@ window.HACKRADAR_DATA = {
    "id": "1d6f71293db1"
   },
   {
-   "title": "Tractian Sales Hackathon",
-   "url": "https://luma.com/i10se4j1",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Tractian",
-   "location": "São Paulo, SP",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/r0/daf5ec05-544c-47be-8258-ec84cbd0bf31.png",
-   "summary": "Tractian",
-   "tags": [],
-   "first_seen": "2026-11-02",
-   "id": "632d88d135b2"
-  },
-  {
    "title": "Unfair Weekend 2026",
    "url": "https://unfair-weekend.devpost.com/",
    "source": "Devpost",
@@ -1430,6 +1293,25 @@ window.HACKRADAR_DATA = {
    "id": "9705d8685940"
   },
   {
+   "title": "Boat Hackathon Christening & Kickoff",
+   "url": "https://luma.com/BoatHackathonChristening",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Boat Hackathon",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/io/c8fb438a-b432-499f-bf71-4dfd202a72b2.jpg",
+   "summary": "Boat Hackathon",
+   "tags": [],
+   "first_seen": "2026-11-11",
+   "id": "9d56cdd62c07"
+  },
+  {
    "title": "Build Out Loud: A Wispr Flow × Bolna Hackathon",
    "url": "https://luma.com/1a2rjj9r",
    "source": "Luma",
@@ -1468,25 +1350,6 @@ window.HACKRADAR_DATA = {
    "id": "c1887a36415c"
   },
   {
-   "title": "CIQ Supercomputing Local AI Hackathon",
-   "url": "https://luma.com/local-ai-hack-chicago",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "NVIDIA",
-   "location": "Chicago, IL",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/17/b2ef9cd3-960a-4984-a8e6-c742a380338b.png",
-   "summary": "NVIDIA",
-   "tags": [],
-   "first_seen": "2026-11-10",
-   "id": "911f38e130a8"
-  },
-  {
    "title": "Central Hacks",
    "url": "https://central-hacks.devpost.com/",
    "source": "Devpost",
@@ -1507,6 +1370,25 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "1e6ccfda096d"
+  },
+  {
+   "title": "Codex Game Play Contest",
+   "url": "https://luma.com/t7k1gete",
+   "source": "Luma",
+   "type": "yarisma",
+   "organizer": "OpenAI Student Collective At BML Munjal University",
+   "location": "Kapriwas, India",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/xl/2c04ecc8-7c04-49f2-b95f-76d74a836496.png",
+   "summary": "OpenAI Student Collective At BML Munjal University",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "dd7bc229e4f4"
   },
   {
    "title": "Cool Chain Club",
@@ -1591,23 +1473,27 @@ window.HACKRADAR_DATA = {
    "id": "9565169be94d"
   },
   {
-   "title": "DurHack",
-   "url": "https://durhack.com",
-   "source": "MLH",
+   "title": "DurHack 2026",
+   "url": "https://durhack-26.devpost.com/",
+   "source": "Devpost",
    "type": "hackathon",
-   "organizer": null,
-   "location": "Durham, County Durham",
+   "organizer": "DurHack",
+   "location": "Teaching and Learning Centre",
    "online": false,
    "turkey": false,
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "deadline": null,
-   "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/019e50f7-21ed-7be0-d9d3-25041a140a99/durhack-2026_89baf922e007_medium.jpg",
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-15",
+   "prize": "£0",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/846/967/datas/medium_square.png",
    "summary": null,
-   "tags": [],
-   "first_seen": "2026-11-09",
-   "id": "e525f8ff5e34"
+   "tags": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "8574487bd88d"
   },
   {
    "title": "EVOLVE: 8090 AI Hackathon",
@@ -1630,7 +1516,7 @@ window.HACKRADAR_DATA = {
   },
   {
    "title": "Emory Hacks 2026",
-   "url": "https://emory-hacks-2026.devpost.com/",
+   "url": "https://emory-hacks-26.devpost.com/",
    "source": "Devpost",
    "type": "hackathon",
    "organizer": "PROJECT Emory",
@@ -1641,15 +1527,15 @@ window.HACKRADAR_DATA = {
    "end": null,
    "deadline": "2026-11-15",
    "prize": null,
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/825/156/datas/medium_square.png",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/855/122/datas/medium_square.png",
    "summary": null,
    "tags": [
     "Beginner Friendly",
     "Education",
     "Social Good"
    ],
-   "first_seen": "2026-11-11",
-   "id": "7243702199d8"
+   "first_seen": "2026-11-12",
+   "id": "cc1ba6e7c287"
   },
   {
    "title": "Engage Test",
@@ -1859,7 +1745,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0a1c6-4096-4e39-b0e6-fbb02f1dfd8a/hackprinceton-fall-2026_9abd7ced2675_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0a1c6-4096-4e39-b0e6-fbb02f1dfd8a/hackprinceton-fall-2026_9b1fb8ec8628_medium.png",
    "summary": null,
    "tags": [
     "Software",
@@ -1881,7 +1767,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/019eb82c-019a-7cdf-8405-6ade2fbe2684/hackumass-19_54ee28e6e4f4_medium.jpg",
+   "image": "https://mlhusercontent.com/backgrounds/events/019eb82c-019a-7cdf-8405-6ade2fbe2684/hackumass-19_cc3022aefc0e_medium.jpg",
    "summary": null,
    "tags": [],
    "first_seen": "2026-11-09",
@@ -1900,7 +1786,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0aabc-89e5-455e-e716-fb22af55ff20/hackuta-53_bd05c626e632_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0aabc-89e5-455e-e716-fb22af55ff20/hackuta-53_7ce296d0f232_medium.png",
    "summary": null,
    "tags": [
     "Software"
@@ -2030,7 +1916,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/zw/47cd7599-1237-4934-be25-fa7306190e51.png",
+   "image": "https://images.lumacdn.com/uploads/ek/ff4e1a44-41df-4f2c-bcb2-c22ab9644c2a.png",
    "summary": "Imperial AI Week (9th-15 Nov)",
    "tags": [],
    "first_seen": "2026-11-02",
@@ -2054,44 +1940,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "c4f811b355b5"
-  },
-  {
-   "title": "Kaggle meets LeetCode. Challenge accepted? Win Rewards",
-   "url": "https://luma.com/KagglemeetsLeetCode",
-   "source": "Luma",
-   "type": "datathon",
-   "organizer": "AI House",
-   "location": "Bengaluru, India",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/6y/53831afc-85bc-4df7-b93e-649f1f817123.jpg",
-   "summary": "AI House",
-   "tags": [],
-   "first_seen": "2026-11-07",
-   "id": "a1b1356e1cdd"
-  },
-  {
-   "title": "Leukberbad Startup Pitch Competition",
-   "url": "https://luma.com/2spvzh2r",
-   "source": "Luma",
-   "type": "yarisma",
-   "organizer": "Personal",
-   "location": "Leukerbad, Switzerland",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/30/75624f33-ee5c-4628-b9ae-da3ee91a0d24.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "20dced84dba7"
   },
   {
    "title": "Leyr x Lovable Buildathon: Build Your EHR",
@@ -2207,7 +2055,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-15",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a0f9d2-8235-468a-117b-e6e10b159f31/nasa-s-space-apps-challenge-nyc_52c7c8d1ba74_medium.jpg",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a0f9d2-8235-468a-117b-e6e10b159f31/nasa-s-space-apps-challenge-nyc_abf79fc67d59_medium.jpg",
    "summary": null,
    "tags": [
     "Software"
@@ -2574,6 +2422,27 @@ window.HACKRADAR_DATA = {
    "id": "3c2444ceb3ba"
   },
   {
+   "title": "Fall 2026 Projects",
+   "url": "https://fall-2026-projects.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "PRODUCT@TAMU",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-16",
+   "prize": null,
+   "image": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "summary": null,
+   "tags": [
+    "Low/No Code"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "dff6ceda0f6e"
+  },
+  {
    "title": "LOOP · UBC eProjects x n8n Buildathon",
    "url": "https://luma.com/n8n-gyab",
    "source": "Luma",
@@ -2610,25 +2479,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "b707e97365e1"
-  },
-  {
-   "title": "NEN Challenge — University of Guelph",
-   "url": "https://luma.com/8sqmel59",
-   "source": "Luma",
-   "type": "yarisma",
-   "organizer": "Personal",
-   "location": "Guelph, ON",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-16",
-   "end": "2026-11-16",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/95/e9a382f0-8607-4949-88bd-1acce6fb93e2.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-07",
-   "id": "08df71ede4b0"
   },
   {
    "title": "Technology x Health: Amador Valley Girls Who Code Hackathon",
@@ -2882,7 +2732,7 @@ window.HACKRADAR_DATA = {
    "url": "https://luma.com/7yx7xeqx",
    "source": "Luma",
    "type": "hackathon",
-   "organizer": "Personal",
+   "organizer": "AdaL",
    "location": "Stanford, CA",
    "online": false,
    "turkey": false,
@@ -2891,7 +2741,7 @@ window.HACKRADAR_DATA = {
    "deadline": null,
    "prize": null,
    "image": "https://images.lumacdn.com/uploads/sm/a5652508-1374-4e64-aa35-404705030b44.png",
-   "summary": "Personal",
+   "summary": "AdaL",
    "tags": [],
    "first_seen": "2026-11-11",
    "id": "1577a351f654"
@@ -2952,25 +2802,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "f22c4ec52bf6"
-  },
-  {
-   "title": "Codex Community Hackathon - Tel Aviv",
-   "url": "https://luma.com/gy9cprco",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Codex Community Events",
-   "location": "Tel Aviv-Yafo, Israel",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-15",
-   "end": "2026-11-18",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/kn/363c6c9f-0bc7-4d20-bd20-f6ff91c6467a.png",
-   "summary": "Codex Community Events",
-   "tags": [],
-   "first_seen": "2026-11-10",
-   "id": "99910848b32f"
   },
   {
    "title": "GWC Projects Program Fall 2026",
@@ -3096,25 +2927,6 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-11-03",
    "id": "33b469a3f70d"
-  },
-  {
-   "title": "Kane CLI Online Hackathon",
-   "url": "https://luma.com/kanecli-online-hackathon",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Online Hackathon",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-12",
-   "end": "2026-11-19",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/7j/92c97bbf-99ba-4de9-a88e-4db4f814ac9f.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-08",
-   "id": "2443239c83f7"
   },
   {
    "title": "Teachers AI Hackathon",
@@ -3281,6 +3093,28 @@ window.HACKRADAR_DATA = {
    "id": "31af259094b8"
   },
   {
+   "title": "Pixelforge",
+   "url": "https://pixel-forge-gamethon.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Dayananda sagar academy of technology an",
+   "location": "Dayananda sagar academy ",
+   "online": false,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-20",
+   "prize": "₹ 0",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/855/423/datas/medium_square.jpeg",
+   "summary": null,
+   "tags": [
+    "Design",
+    "Gaming"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "72812192f359"
+  },
+  {
    "title": "University Blockchain Conference Hackathon 2026",
    "url": "https://ubc-hackathon-2026.devpost.com/",
    "source": "Devpost",
@@ -3321,6 +3155,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "8baaf5fb3d12"
+  },
+  {
+   "title": "11.21 Shanghai Impact Hackathon",
+   "url": "https://luma.com/nx0iceok",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "The Arch 2026",
+   "location": "Shanghai, China",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/iy/4c19d5a5-2325-409a-a9e9-463a8f723375.png",
+   "summary": "The Arch 2026",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "8994029583f8"
   },
   {
    "title": "5-Hour Vibecoding Penthouse Game Jam #2",
@@ -3403,7 +3256,7 @@ window.HACKRADAR_DATA = {
    "id": "ca879277d0b8"
   },
   {
-   "title": "Cursor Hackathon Mendoza",
+   "title": "Cursor Hackathon Mendoza x Universidad Champagnat",
    "url": "https://luma.com/spacexai-iyqe",
    "source": "Luma",
    "type": "hackathon",
@@ -3415,7 +3268,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-11-21",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/r5/a87a1acd-a52e-4a0a-959b-7408596acf2e.png",
+   "image": "https://images.lumacdn.com/uploads/5f/3d05d0b9-50c9-43e6-a96b-192f15d48425.png",
    "summary": "SpaceXSI for Mendoza, Argentina",
    "tags": [],
    "first_seen": "2026-11-07",
@@ -3571,6 +3424,25 @@ window.HACKRADAR_DATA = {
    "id": "7c87d5e8a217"
   },
   {
+   "title": "Notion AI Hackathon Seoul",
+   "url": "https://luma.com/vc6rmvaz",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Notion Korea",
+   "location": "Seoul, South Korea",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/yq/f6e98080-2505-4394-bfa8-676431fe46e8.png",
+   "summary": "Notion Korea",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "1aeab4399c8d"
+  },
+  {
    "title": "Open Room Buildathon",
    "url": "https://luma.com/x27femus",
    "source": "Luma",
@@ -3588,6 +3460,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "dd7b4b0a53d6"
+  },
+  {
+   "title": "Personal Agents Hackathon",
+   "url": "https://luma.com/personalagenthack",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "tokens&",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/cp/60b8813e-4185-47ca-8f28-523c34bb4fb5.png",
+   "summary": "tokens&",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "9251a63d77c5"
   },
   {
    "title": "STEM2Connect AI Hackathon",
@@ -3691,6 +3582,29 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "2de2ba37a84b"
+  },
+  {
+   "title": "WoHack",
+   "url": "https://wohack.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Queen Mary Computer Science Society",
+   "location": "Queen Mary University of london",
+   "online": false,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-21",
+   "prize": null,
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/831/952/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "aa712155f1cf"
   },
   {
    "title": "offscript(berlin) x Buena - Hackathon_01",
@@ -3868,7 +3782,7 @@ window.HACKRADAR_DATA = {
    "id": "e9f02f594b20"
   },
   {
-   "title": "EvoHacks ⅠⅠ ",
+   "title": "EvoHacks 2",
    "url": "https://evohacks2.devpost.com/",
    "source": "Devpost",
    "type": "hackathon",
@@ -3879,7 +3793,7 @@ window.HACKRADAR_DATA = {
    "start": null,
    "end": null,
    "deadline": "2026-11-22",
-   "prize": null,
+   "prize": "$27,629",
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/798/572/datas/medium_square.png",
    "summary": null,
    "tags": [
@@ -3934,7 +3848,7 @@ window.HACKRADAR_DATA = {
    "source": "Devpost",
    "type": "hackathon",
    "organizer": "Hack Western",
-   "location": "SEI Building",
+   "location": "Ronald D. Schmeichel Building",
    "online": false,
    "turkey": false,
    "start": null,
@@ -4115,25 +4029,6 @@ window.HACKRADAR_DATA = {
    "id": "10bf883cab36"
   },
   {
-   "title": "TUM.ai Construction Hackathon",
-   "url": "https://luma.com/lj00k6tv",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "TUM.ai Makeathon",
-   "location": "Garching bei München, Germany",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-20",
-   "end": "2026-11-22",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/k0/71c4a6b0-23c6-4142-924f-21a6a7cb4935.png",
-   "summary": "TUM.ai Makeathon",
-   "tags": [],
-   "first_seen": "2026-11-11",
-   "id": "45177101ad20"
-  },
-  {
    "title": "Tech For Community 2026",
    "url": "https://tecnurtur.org/hackathon",
    "source": "MLH",
@@ -4194,6 +4089,29 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "9113be9a383f"
+  },
+  {
+   "title": "CSAIC Hack-AI-Thon",
+   "url": "https://csaic-hackaithon.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Computer Science and AI Circle @ IISH",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-24",
+   "prize": "₹ 0",
+   "image": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "summary": null,
+   "tags": [
+    "Education",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "ca07bb36ea64"
   },
   {
    "title": "Data Challenge Hackathon QRT x Analytics Club ETH",
@@ -4511,6 +4429,25 @@ window.HACKRADAR_DATA = {
    "id": "675f963a8cda"
   },
   {
+   "title": "Host Planet & Boostly AI Buildathon",
+   "url": "https://luma.com/6d503u8s",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Host Planet",
+   "location": "Leeds, United Kingdom",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/gallery-images/ru/6ed80c40-d1f6-4022-8f67-b8380b15066a.png",
+   "summary": "Host Planet",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "dd7fb787021b"
+  },
+  {
    "title": "Mini Hackaton Technovation Challenge CDMX",
    "url": "https://luma.com/1pry6bun",
    "source": "Luma",
@@ -4547,6 +4484,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-11",
    "id": "cdcd1dedb782"
+  },
+  {
+   "title": "Studio Exhibition & Masterplan Competition",
+   "url": "https://luma.com/dus6hx0a",
+   "source": "Luma",
+   "type": "yarisma",
+   "organizer": "Koloni Arsitektur Events",
+   "location": "Surabaya",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-16",
+   "end": "2026-11-27",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/k2/b46e183f-3b3d-4349-9eb8-331a8587a161.jpg",
+   "summary": "Koloni Arsitektur Events",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "596f0f179b88"
   },
   {
    "title": "Aleph Hackathon Rosario",
@@ -4589,6 +4545,29 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "22ea1569b143"
+  },
+  {
+   "title": "Build Day 2",
+   "url": "https://build-day.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Durham College",
+   "location": "Durham University, Entrepreneurs Durham",
+   "online": false,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-11-28",
+   "prize": null,
+   "image": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+   "summary": null,
+   "tags": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Voice skills"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "6d40b1e5cd8c"
   },
   {
    "title": "Codex Community Hackathon – London",
@@ -4825,6 +4804,25 @@ window.HACKRADAR_DATA = {
    "id": "7d4807417608"
   },
   {
+   "title": "Consumer AI Hackathon: Ship an App People Love in a Day",
+   "url": "https://luma.com/encode-husb",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Encode Club",
+   "location": "London, United Kingdom",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/api-uploads/kc/90253504-9de8-4b77-afdb-6a2c22e93d81.jpg",
+   "summary": "Encode Club",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "094a9b3d5b69"
+  },
+  {
    "title": "HackEPS",
    "url": "https://hackeps.dev/",
    "source": "MLH",
@@ -4909,6 +4907,25 @@ window.HACKRADAR_DATA = {
    "id": "bd1e73806ea0"
   },
   {
+   "title": "Kaggle meets LeetCode. Challenge accepted? Win Rewards",
+   "url": "https://luma.com/KagglemeetsLeetCode",
+   "source": "Luma",
+   "type": "datathon",
+   "organizer": "AI House",
+   "location": "Bengaluru, India",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/6y/53831afc-85bc-4df7-b93e-649f1f817123.jpg",
+   "summary": "AI House",
+   "tags": [],
+   "first_seen": "2026-11-07",
+   "id": "a1b1356e1cdd"
+  },
+  {
    "title": "LEADHer – Hackathon para Mujeres",
    "url": "https://luma.com/miuqrx6v",
    "source": "Luma",
@@ -4987,6 +5004,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-08",
    "id": "48a1a691a07b"
+  },
+  {
+   "title": "Prompt Startegy Hackathon",
+   "url": "https://luma.com/aaltoes-u79b",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Aaltoes Events",
+   "location": "Espoo, Finland",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/v5/28c75596-91c8-4be1-a400-24c9c9d1f494.png",
+   "summary": "Aaltoes Events",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "b4a58e636c5b"
   },
   {
    "title": "Rekindle Designathon",
@@ -5413,7 +5449,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-12-04",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/j3/5309b117-2cc3-4b70-8d62-bfb8eadcefd7.jpg",
+   "image": "https://images.lumacdn.com/uploads/bk/e0f03579-6cf2-450d-a0ab-10cebc09ec4b.jpg",
    "summary": "Personal",
    "tags": [],
    "first_seen": "2026-11-01",
@@ -5575,7 +5611,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-12-06",
    "deadline": null,
    "prize": null,
-   "image": "https://mlhusercontent.com/backgrounds/events/01a16a32-e904-56ac-4c0e-37892fa37521/hack-cats-cd_d416b5089dad_medium.png",
+   "image": "https://mlhusercontent.com/backgrounds/events/01a16a32-e904-56ac-4c0e-37892fa37521/hack-cats-cd_0b9374cfbd8f_medium.png",
    "summary": null,
    "tags": [
     "Software"
@@ -5626,6 +5662,25 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "1c12653b565e"
+  },
+  {
+   "title": "Sunway x Kiro Cybersecurity Hackathon 2026",
+   "url": "https://luma.com/x02x4rj4",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Sunway Cybersecurity Club",
+   "location": "Thinker Space, FET Building",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/w1/416c36f2-2761-43dc-a672-9421c92c8006.png",
+   "summary": "Sunway Cybersecurity Club",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "d00516c30eba"
   },
   {
    "title": "The Dawn of Superintelligence | Kaya AI Grand Challenge ",
@@ -5762,23 +5817,26 @@ window.HACKRADAR_DATA = {
    "id": "22f8f64abe60"
   },
   {
-   "title": "„The Gate is the Brain“ - Primion x Projector (Keynote & Hackathon)",
-   "url": "https://luma.com/axm9osju",
-   "source": "Luma",
+   "title": "Reddit’s Game of the Day Hackathon",
+   "url": "https://redditgameofday2026.devpost.com/",
+   "source": "Devpost",
    "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Berlin, Germany",
-   "online": false,
+   "organizer": "reddit",
+   "location": "Online",
+   "online": true,
    "turkey": false,
-   "start": "2026-12-09",
-   "end": "2026-12-09",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/7t/79ec93da-2fbb-4306-9861-4fe47d33c07f.jpg",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-11",
-   "id": "93d67c1f1871"
+   "start": null,
+   "end": null,
+   "deadline": "2026-12-08",
+   "prize": "$35,000",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/533/494/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Beginner Friendly",
+    "Gaming"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "0a162c0a0240"
   },
   {
    "title": "AI OpenBuild",
@@ -5887,7 +5945,28 @@ window.HACKRADAR_DATA = {
    "id": "5e02a021494a"
   },
   {
-   "title": "Hack the Heck Hackathon",
+   "title": "FRONTIER//26",
+   "url": "https://lovhack.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Lovhack",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-12-11",
+   "prize": null,
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/855/318/datas/medium_square.jpg",
+   "summary": null,
+   "tags": [
+    "Machine Learning/AI"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "01b77451403d"
+  },
+  {
+   "title": "Hack the Heck: AI Hacking Hackathon",
    "url": "https://luma.com/woinor1c",
    "source": "Luma",
    "type": "hackathon",
@@ -5904,6 +5983,29 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-09",
    "id": "c9f0bb10e5c1"
+  },
+  {
+   "title": "Relate by Neo4j Hackathon",
+   "url": "https://relate.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Neo4j",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2026-12-11",
+   "prize": null,
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/838/437/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Databases",
+    "Machine Learning/AI",
+    "Productivity"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "b803d0a9d2ba"
   },
   {
    "title": "YAZGİT Yapay Zekâ Hackathonu 2026",
@@ -5984,25 +6086,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-06",
    "id": "038f0ca7c210"
-  },
-  {
-   "title": "Winter Hackathon ❄️ (supported by Lovable)",
-   "url": "https://luma.com/2zl1ik82",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Kiez & Kin",
-   "location": "Berlin, Germany",
-   "online": false,
-   "turkey": false,
-   "start": "2026-12-12",
-   "end": "2026-12-12",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/ju/aac13d44-3a68-434d-b61c-20dc6bcbeaa6.png",
-   "summary": "Kiez & Kin",
-   "tags": [],
-   "first_seen": "2026-11-09",
-   "id": "fb1070dc03e3"
   },
   {
    "title": "InnovateHER Hackathon: Girls Who Code",
@@ -6233,7 +6316,7 @@ window.HACKRADAR_DATA = {
    "end": "2026-12-19",
    "deadline": null,
    "prize": null,
-   "image": "https://images.lumacdn.com/uploads/89/76cc3a21-d72e-4e43-ac80-dbc61cbc0ae3.png",
+   "image": "https://images.lumacdn.com/uploads/1d/d6306e53-bb79-4806-adf4-8afd2c13a0ac.png",
    "summary": "Personal",
    "tags": [],
    "first_seen": "2026-11-11",
@@ -6547,6 +6630,48 @@ window.HACKRADAR_DATA = {
    "id": "4c925a4a4cdd"
   },
   {
+   "title": "Open Agentic Web Challenge",
+   "url": "https://cognizant-agenticweb.devpost.com/",
+   "source": "Devpost",
+   "type": "yarisma",
+   "organizer": "Cognizant",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2027-01-11",
+   "prize": "$10,000",
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/839/029/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Machine Learning/AI",
+    "Web",
+    "Social Good"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "e40fe0b8a4fe"
+  },
+  {
+   "title": "AI Builders x Base44 Buildathon",
+   "url": "https://luma.com/mia-jan14-hday",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "AI Builders",
+   "location": "Miami, FL",
+   "online": false,
+   "turkey": false,
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/api-uploads/p6/17095576-72b5-461f-bd02-b6c4808b5f95.png",
+   "summary": "AI Builders",
+   "tags": [],
+   "first_seen": "2026-11-12",
+   "id": "6d58e68daca4"
+  },
+  {
    "title": "Syntax Summit",
    "url": "https://syntax-summit.devpost.com/",
    "source": "Devpost",
@@ -6654,6 +6779,27 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-09",
    "id": "af5118a42408"
+  },
+  {
+   "title": "Syntax Hacks 2026",
+   "url": "https://syntax-hacks-2026.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Syntax Hacks Team",
+   "location": "Online",
+   "online": true,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2027-01-17",
+   "prize": null,
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/854/379/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Open Ended"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "058d0c2e23dc"
   },
   {
    "title": "UofTHacks",
@@ -7184,25 +7330,6 @@ window.HACKRADAR_DATA = {
    "id": "d5e441ac6dd4"
   },
   {
-   "title": "AI Vibecoding Hackathon 2027",
-   "url": "https://luma.com/exx7cd47",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Bengaluru, India",
-   "online": false,
-   "turkey": false,
-   "start": "2027-02-21",
-   "end": "2027-02-22",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/gallery-images/n2/0a544d41-3888-47b5-bdbc-c5d8cc5131e6",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "c0c6e68d53a8"
-  },
-  {
    "title": "GSE's Inaugural Hackathon",
    "url": "https://luma.com/vikzbuyz",
    "source": "Luma",
@@ -7423,6 +7550,29 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-10-30",
    "id": "f9511f96121d"
+  },
+  {
+   "title": "Firebird Hacks 2027",
+   "url": "https://firebird-hacks-32077.devpost.com/",
+   "source": "Devpost",
+   "type": "hackathon",
+   "organizer": "Arcadia High School",
+   "location": "Arcadia High School - Gym",
+   "online": false,
+   "turkey": false,
+   "start": null,
+   "end": null,
+   "deadline": "2027-03-20",
+   "prize": null,
+   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/843/869/datas/medium_square.png",
+   "summary": null,
+   "tags": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Web"
+   ],
+   "first_seen": "2026-11-12",
+   "id": "827e69e178de"
   },
   {
    "title": "checkpoint journeys — hanoi",
