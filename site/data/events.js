@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-11-16T11:16:35+00:00",
- "count": 326,
+ "updated_at": "2026-11-16T11:17:27+00:00",
+ "count": 329,
  "sources": {
   "Devpost": 148,
   "MLH": 24,
-  "Luma": 250,
+  "Luma": 328,
   "Coderspace": 0,
   "Techcareer": 0,
   "Youthall": 2,
@@ -1197,6 +1197,25 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-11-10",
    "id": "7c87d5e8a217"
+  },
+  {
+   "title": "Nodo Cero - Hackathon n8n Bolivia",
+   "url": "https://luma.com/n8n-rfgv",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "n8n Community Events",
+   "location": "Santa Cruz de la Sierra, Bolivia",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/7m/25753383-27b8-42c1-9bf9-ec1d11b785de.png",
+   "summary": "n8n Community Events",
+   "tags": [],
+   "first_seen": "2026-11-16",
+   "id": "07002136f7d9"
   },
   {
    "title": "Notion AI Hackathon Seoul",
@@ -3564,6 +3583,25 @@ window.HACKRADAR_DATA = {
    "id": "1f74b4d1ade1"
   },
   {
+   "title": "Health Frontier NYC Hackathon 🗽",
+   "url": "https://luma.com/6bwgvqrc",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "New York, NY",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-04",
+   "end": "2026-12-05",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/gw/c0b157f6-53bd-4a26-b06d-138c945d718d.jpg",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-16",
+   "id": "941081a1bb62"
+  },
+  {
    "title": "Rule Roulette - Game Jam",
    "url": "https://luma.com/x8al6ue2",
    "source": "Luma",
@@ -4190,6 +4228,25 @@ window.HACKRADAR_DATA = {
    ],
    "first_seen": "2026-11-03",
    "id": "5e02a021494a"
+  },
+  {
+   "title": "Capture, Explain, Defend — AI Cybersecurity Hackathon 해커톤",
+   "url": "https://luma.com/aisecurityseoul",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "AI Builders",
+   "location": "Seoul, South Korea",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/4w/9bfc52fb-525f-4191-8d05-5766f4f2bae9.jpg",
+   "summary": "AI Builders",
+   "tags": [],
+   "first_seen": "2026-11-16",
+   "id": "9abce7431dd8"
   },
   {
    "title": "FRONTIER//26",
