@@ -1,10 +1,10 @@
 window.HACKRADAR_DATA = {
- "updated_at": "2026-11-16T11:17:27+00:00",
+ "updated_at": "2026-11-16T12:10:51+00:00",
  "count": 329,
  "sources": {
   "Devpost": 148,
   "MLH": 24,
-  "Luma": 328,
+  "Luma": 329,
   "Coderspace": 0,
   "Techcareer": 0,
   "Youthall": 2,
@@ -852,6 +852,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "5c332c96f5fb"
+  },
+  {
+   "title": "BEYOND 9TO5 — BUILDATHON| BENGALURU | 21 Nov 2026",
+   "url": "https://luma.com/sfljztb7",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "EtriqAI",
+   "location": "Bengaluru, India",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/5k/b023426c-da1d-4470-b1f1-d03b9865df08.jpg",
+   "summary": "EtriqAI",
+   "tags": [],
+   "first_seen": "2026-11-16",
+   "id": "7013e7e2fcee"
   },
   {
    "title": "Bridge The Gap Hacks",
@@ -2359,25 +2378,6 @@ window.HACKRADAR_DATA = {
    "id": "dad2d1ef121e"
   },
   {
-   "title": "Coded AI Hackathon",
-   "url": "https://luma.com/2s11pkvx",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "Accra, Ghana",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/bj/8605d108-f38f-4bfd-9cc7-8233996bab74.png",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-10-30",
-   "id": "675f963a8cda"
-  },
-  {
    "title": "Host Planet & Boostly AI Buildathon",
    "url": "https://luma.com/6d503u8s",
    "source": "Luma",
@@ -2633,6 +2633,25 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-07",
    "id": "4176039b11c5"
+  },
+  {
+   "title": "Hackathon for Good: AI by Women, for Women",
+   "url": "https://luma.com/equals-utwi",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Equals",
+   "location": "Amsterdam, Netherlands",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/zz/4922becd-1843-48db-9f08-592aa555e82e.png",
+   "summary": "Equals",
+   "tags": [],
+   "first_seen": "2026-11-16",
+   "id": "5fca11f14fec"
   },
   {
    "title": "Launch Day Hackathon",
@@ -3581,25 +3600,6 @@ window.HACKRADAR_DATA = {
    "tags": [],
    "first_seen": "2026-11-11",
    "id": "1f74b4d1ade1"
-  },
-  {
-   "title": "Health Frontier NYC Hackathon 🗽",
-   "url": "https://luma.com/6bwgvqrc",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Personal",
-   "location": "New York, NY",
-   "online": false,
-   "turkey": false,
-   "start": "2026-12-04",
-   "end": "2026-12-05",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/gw/c0b157f6-53bd-4a26-b06d-138c945d718d.jpg",
-   "summary": "Personal",
-   "tags": [],
-   "first_seen": "2026-11-16",
-   "id": "941081a1bb62"
   },
   {
    "title": "Rule Roulette - Game Jam",
