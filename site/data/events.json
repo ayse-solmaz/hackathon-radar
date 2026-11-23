@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-23T09:56:58+00:00",
- "count": 316,
+ "updated_at": "2026-11-23T11:29:50+00:00",
+ "count": 314,
  "sources": {
   "Devpost": 148,
   "MLH": 24,
-  "Luma": 329,
+  "Luma": 261,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 1,
@@ -511,25 +511,6 @@
    "tags": [],
    "first_seen": "2026-11-22",
    "id": "9b8fb9c7f1b5"
-  },
-  {
-   "title": "UK-Korea AI Futures Forum - Hackathon Launch: Korea",
-   "url": "https://luma.com/tkpnm9zp",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Co-Labs Global",
-   "location": "Seoul, Korea, tbc",
-   "online": false,
-   "turkey": false,
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/gq/81f6be2e-73f9-4004-83d0-87ce296d7eab.png",
-   "summary": "Co-Labs Global",
-   "tags": [],
-   "first_seen": "2026-11-23",
-   "id": "57569ad8f18e"
   },
   {
    "title": "AI by Default Hackathon with AIM Intelligence",
@@ -3187,6 +3168,25 @@
    "id": "5e02a021494a"
   },
   {
+   "title": "Encrypted Compute Hackathon",
+   "url": "https://luma.com/kc6tzpsa",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Niobium",
+   "location": "Seattle, WA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-10",
+   "end": "2026-12-11",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/5f/602f4555-7219-461d-8cb6-bd6e18422728.png",
+   "summary": "Niobium",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "4c07a38f19bf"
+  },
+  {
    "title": "FRONTIER//26",
    "url": "https://frontier26.devpost.com/",
    "source": "Devpost",
@@ -3227,25 +3227,6 @@
    "tags": [],
    "first_seen": "2026-11-09",
    "id": "c9f0bb10e5c1"
-  },
-  {
-   "title": "Madison Avenue: The Media and Advertising Hackathon: Powered by Plug & Play VC and Base44",
-   "url": "https://luma.com/media-hack-nyc",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "localhost:nyc",
-   "location": "New York, NY",
-   "online": false,
-   "turkey": false,
-   "start": "2026-12-11",
-   "end": "2026-12-11",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/b6/ae461ce4-a328-491e-9813-3081f9e7d3c3.png",
-   "summary": "localhost:nyc",
-   "tags": [],
-   "first_seen": "2026-11-23",
-   "id": "5d0e62facd10"
   },
   {
    "title": "Open Sourcery F26 Showcase",
@@ -5608,25 +5589,6 @@
    ],
    "first_seen": "2026-11-06",
    "id": "5c9f2dafa977"
-  },
-  {
-   "title": "Feyer Hackathon",
-   "url": "https://luma.com/a4qca6ln",
-   "source": "Luma",
-   "type": "hackathon",
-   "organizer": "Feyer",
-   "location": "Tübingen, Germany",
-   "online": false,
-   "turkey": false,
-   "start": "2027-02-19",
-   "end": "2027-02-21",
-   "deadline": null,
-   "prize": null,
-   "image": "https://images.lumacdn.com/uploads/lj/2780b37f-2484-4d88-9ec7-9dac1417379c.png",
-   "summary": "Feyer",
-   "tags": [],
-   "first_seen": "2026-11-23",
-   "id": "77491ece6b8e"
   },
   {
    "title": "MEGA Hackathon 2027",
