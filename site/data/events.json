@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-23T11:29:50+00:00",
- "count": 314,
+ "updated_at": "2026-11-23T11:31:27+00:00",
+ "count": 318,
  "sources": {
   "Devpost": 148,
   "MLH": 24,
-  "Luma": 261,
+  "Luma": 331,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 1,
@@ -511,6 +511,25 @@
    "tags": [],
    "first_seen": "2026-11-22",
    "id": "9b8fb9c7f1b5"
+  },
+  {
+   "title": "UK-Korea AI Futures Forum - Hackathon Launch: Korea",
+   "url": "https://luma.com/tkpnm9zp",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Co-Labs Global",
+   "location": "Seoul, Korea, tbc",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/gq/81f6be2e-73f9-4004-83d0-87ce296d7eab.png",
+   "summary": "Co-Labs Global",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "57569ad8f18e"
   },
   {
    "title": "AI by Default Hackathon with AIM Intelligence",
@@ -1051,6 +1070,25 @@
    "id": "d884422b4846"
   },
   {
+   "title": "Hackathon for Good: AI by Women, for Women",
+   "url": "https://luma.com/equals-utwi",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Equals",
+   "location": "Amsterdam, Netherlands",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/x8/61f2c226-1ec9-4ed7-a5f9-5521df66d487.png",
+   "summary": "Equals",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "5fca11f14fec"
+  },
+  {
    "title": "Launch Day Hackathon",
    "url": "https://luma.com/fg1lny5k",
    "source": "Luma",
@@ -1068,6 +1106,25 @@
    "tags": [],
    "first_seen": "2026-10-30",
    "id": "f08d9f04c426"
+  },
+  {
+   "title": "Physical AI Hackathon Karlsruhe",
+   "url": "https://luma.com/rzdmrlif",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "Karlsruhe, Germany",
+   "online": false,
+   "turkey": false,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/1e/2887886a-27bc-48f2-8f3c-318e9b17e99a.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "015516d5757d"
   },
   {
    "title": "Physical AI Hackathon Malaysia 2026",
@@ -2367,6 +2424,25 @@
    "tags": [],
    "first_seen": "2026-11-20",
    "id": "ac1046bc0866"
+  },
+  {
+   "title": "Build Without APIs – AI Hackathon",
+   "url": "https://luma.com/r652u1d1",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "EtriqAI Developers",
+   "location": "Noida, India",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/5a/8d5f8aa5-24c0-4977-9259-28376e20cb59.jpg",
+   "summary": "EtriqAI Developers",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "86af3b098b18"
   },
   {
    "title": "Draki Pink Hackathon",
