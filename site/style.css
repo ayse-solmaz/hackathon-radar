@@ -95,6 +95,7 @@ input[type="search"]:focus, select:focus { outline: 2px solid var(--accent); out
 .due strong.soon { color: var(--warn); }
 .empty { text-align: center; color: var(--muted); padding: 48px 0; }
 .foot { color: var(--muted); font-size: 12px; padding: 32px 16px 40px; }
+.foot a { color: inherit; }
 
 @media (max-width: 600px) {
   .selects { width: 100%; }

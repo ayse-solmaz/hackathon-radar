@@ -16,6 +16,8 @@ const fmt = (iso) =>
   iso ? new Date(iso + "T00:00:00").toLocaleDateString("tr-TR", { day: "numeric", month: "short", year: "numeric" }) : null;
 const daysLeft = (iso) => (iso ? Math.round((new Date(iso + "T00:00:00") - today) / DAY) : null);
 const isNew = (e) => e.first_seen && (today - new Date(e.first_seen + "T00:00:00")) / DAY <= 2;
+// esc() alone isn't enough inside style="url('...')": the browser decodes &#39; back to '.
+const cssUrl = (u) => String(u).replace(/["'()\\\s]/g, (c) => "%" + c.charCodeAt(0).toString(16).padStart(2, "0"));
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function store(key, val) {
@@ -28,11 +30,11 @@ function load(key) {
 function card(e) {
   const due = e.deadline || e.end || e.start;
   const left = daysLeft(due);
-  const label = e.deadline ? "Son başvuru" : e.end ? "Bitiş" : e.start ? "Tarih" : "Tarih";
+  const label = e.deadline ? "Son başvuru" : e.end ? "Bitiş" : "Tarih";
   const leftText = left == null ? "" : left === 0 ? "Bugün!" : left > 0 ? `${left} gün kaldı` : "";
   const where = e.online ? "🌐 Online" : e.location ? `📍 ${e.location}` : e.turkey ? "📍 Türkiye" : "";
   const thumb = e.image
-    ? `<div class="thumb" style="background-image:url('${esc(e.image)}')"></div>`
+    ? `<div class="thumb" style="background-image:url('${esc(cssUrl(e.image))}')"></div>`
     : `<div class="thumb"><span class="ph">${ICON[e.type] || "🏁"}</span></div>`;
   return `
   <a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">

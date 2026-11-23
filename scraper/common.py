@@ -4,9 +4,11 @@ from __future__ import annotations
 import hashlib
 import re
 from dataclasses import dataclass, field, asdict
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -15,6 +17,11 @@ UA = (
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA, "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8"})
+# Transient errors (rate limits, 5xx, dropped connections) get two quiet retries.
+_retry = Retry(total=2, backoff_factor=1.5, status_forcelist=(429, 500, 502, 503, 504),
+               allowed_methods=("GET", "POST"))
+session.mount("https://", HTTPAdapter(max_retries=_retry))
+session.mount("http://", HTTPAdapter(max_retries=_retry))
 
 
 def get(url: str, **kw) -> requests.Response:
@@ -25,7 +32,10 @@ def get(url: str, **kw) -> requests.Response:
     return r
 
 
-TODAY = datetime.now(timezone.utc).date()
+# Turkey is UTC+3 all year (no DST since 2016). Using UTC here made a run just
+# after midnight in Istanbul think it was still yesterday.
+TR_TZ = timezone(timedelta(hours=3))
+TODAY = datetime.now(TR_TZ).date()
 
 # Order matters: the first match wins.
 TYPE_PATTERNS = [

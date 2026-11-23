@@ -70,21 +70,25 @@ def main() -> None:
         print(f"[{name}] {len(items)} kayıt ({time.time() - t0:.1f}s)")
         collected.extend(items)
 
-    # dedupe: same URL, or same normalized title (platform listings first, social last)
+    # dedupe: same URL, or same normalized title (platform listings first, social last).
+    # Expired entries are dropped *before* dedupe, otherwise an old listing could hide
+    # a still-open copy of the same event coming from another source.
     by_id: dict[str, Event] = {}
     titles: set[str] = set()
     for e in collected:
         if not e.title or not e.url:
             continue
+        clean_dates(e)
+        e.first_seen = (previous.get(e.id) or {}).get("first_seen") or TODAY.isoformat()
+        if not is_active(e):
+            continue
         key = norm_title(e.title)
         if e.id in by_id or (len(key) > 5 and key in titles):
             continue
-        clean_dates(e)
-        e.first_seen = (previous.get(e.id) or {}).get("first_seen") or TODAY.isoformat()
         by_id[e.id] = e
         titles.add(key)
 
-    active = [e for e in by_id.values() if is_active(e)]
+    active = list(by_id.values())
     active.sort(key=lambda e: (e.deadline or e.end or e.start or "9999", e.title))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
