@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-23T09:56:07+00:00",
- "count": 313,
+ "updated_at": "2026-11-23T09:56:58+00:00",
+ "count": 316,
  "sources": {
   "Devpost": 148,
   "MLH": 24,
-  "Luma": 258,
+  "Luma": 329,
   "Coderspace": 1,
   "Techcareer": 0,
   "Youthall": 1,
@@ -3229,6 +3229,25 @@
    "id": "c9f0bb10e5c1"
   },
   {
+   "title": "Madison Avenue: The Media and Advertising Hackathon: Powered by Plug & Play VC and Base44",
+   "url": "https://luma.com/media-hack-nyc",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "localhost:nyc",
+   "location": "New York, NY",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/b6/ae461ce4-a328-491e-9813-3081f9e7d3c3.png",
+   "summary": "localhost:nyc",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "5d0e62facd10"
+  },
+  {
    "title": "Open Sourcery F26 Showcase",
    "url": "https://open-sourcery-f26-showcase.devpost.com/",
    "source": "Devpost",
@@ -3465,6 +3484,25 @@
    "tags": [],
    "first_seen": "2026-11-15",
    "id": "c0bd659963ec"
+  },
+  {
+   "title": "Battle Day - Aggressive Machines Battleboat Buildathon Finals",
+   "url": "https://luma.com/b7xg51eg",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Unicorn Machine Ecosystem Events",
+   "location": "Tallinn, Estonia",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/sr/6dc8b2d6-9164-4aa4-a9b5-475de4ef0b9b.png",
+   "summary": "Unicorn Machine Ecosystem Events",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "34615dc75048"
   },
   {
    "title": "EESTISTARTUP -Vibe Coding Hackathon",
@@ -3852,6 +3890,25 @@
    ],
    "first_seen": "2026-11-09",
    "id": "cc486d993da4"
+  },
+  {
+   "title": "Abundant's Weight-space Programming Hackathon",
+   "url": "https://luma.com/kiqnx2f2",
+   "source": "Luma",
+   "type": "hackathon",
+   "organizer": "Personal",
+   "location": "San Francisco, CA",
+   "online": false,
+   "turkey": false,
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "deadline": null,
+   "prize": null,
+   "image": "https://images.lumacdn.com/uploads/td/884ea81a-3440-4cb8-a202-e1670d69379e.png",
+   "summary": "Personal",
+   "tags": [],
+   "first_seen": "2026-11-23",
+   "id": "58eaea670321"
   },
   {
    "title": "AccessED Hacks",
