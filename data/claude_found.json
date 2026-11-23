@@ -1,9 +1,95 @@
-{"events": [
-{"title": "MediaMarkt Startup Challenge (9. Dönem)", "url": "https://www.foreks.com/haber/detay/6adf0015422c786f3f7a9b3c/FRKS/tr/mediamarkt-startup-challenge-9-donem-basvurulari-acildi-26-10-26/", "platform": "Web", "type": "yarisma", "organizer": "MediaMarkt", "deadline": "2026-11-16", "event_date": "2027-01-13", "location": null, "online": null, "turkey": true, "summary": "Perakende ve teknoloji odaklı girişimler için startup yarışmasının 9. dönemi; final 13 Ocak 2027'de."},
-{"title": "Fountain Hackathon 2026", "url": "https://www.fountainhackathon.com/", "platform": "Web", "type": "hackathon", "organizer": "Fountain", "deadline": "2026-11-25", "event_date": "2026-11-28", "location": "İstanbul", "online": false, "turkey": true, "summary": "Tech Istanbul Şişli'de 28-29 Kasım'da yapılacak, Y Combinator simülasyonu formatında iki günlük ücretsiz hackathon; 50.000 TL ödül havuzu, 1-5 kişilik ekipler."},
-{"title": "GAZİ AI TECH 2026 Yapay Zekâ Proje Fikri Yarışması", "url": "https://www.bilimsenligi.com/gazi-ai-tech-2026-yapay-zeka-yarismasi-ve-oduller.html", "platform": "Üniversite", "type": "ideathon", "organizer": "Gazi Üniversitesi", "deadline": "2026-11-25", "event_date": "2026-12-04", "location": "Ankara", "online": false, "turkey": true, "summary": "Türkiye'deki ön lisans ve lisans öğrencilerine açık yapay zekâ proje fikri yarışması; final ve ödül töreni 4 Aralık'ta Ankara'da."},
-{"title": "Türkiye'nin Kadın Girişimcisi Yarışması 2026", "url": "https://webrazzi.com/2026/11/05/turkiyenin-kadin-girisimcisi-yarismasinda-basvurular-30-kasima-kadar-devam-ediyor/", "platform": "Web", "type": "yarisma", "organizer": "Garanti BBVA, KAGİDER, Ekonomist", "deadline": "2026-11-30", "event_date": null, "location": null, "online": null, "turkey": true, "summary": "20. yılındaki kadın girişimci yarışması; beş kategoride toplam 3 milyon TL ödül, başvurular 30 Kasım'a uzatıldı."},
-{"title": "TechAnkara Maker Programı 2026-2 (Makeathlon)", "url": "https://www.bilimsenligi.com/techankara-maker-2026-basvurulari-96-bin-tl-odul.html", "platform": "Web", "type": "yarisma", "organizer": "Ankara Kalkınma Ajansı, Ankara İl MEM, Teknopark Ankara", "deadline": "2026-12-04", "event_date": "2026-12-12", "location": "Ankara", "online": false, "turkey": true, "summary": "Lise öğrencilerine yönelik teknoloji ve kodlama yarışması; başvuruyu takım lideri öğretmen yapar, final 12 Aralık'ta Teknopark Ankara'da, 96 bin TL ödül."},
-{"title": "YAZGİT Yapay Zekâ Hackathonu 2026", "url": "https://yazgit.com/hackathon", "platform": "Üniversite", "type": "hackathon", "organizer": "Ankara Üniversitesi YAZGİT, OpenZeka", "deadline": null, "event_date": "2026-12-11", "location": "Ankara", "online": false, "turkey": true, "summary": "Üniversite öğrencilerine açık, 2-4 kişilik takımlarla yapay zekâ hackathonu; problem etkinlik günü açıklanacak. Son başvuru tarihi sitede belirtilmemiş."},
-{"title": "Turkcell Yarının Teknoloji Liderleri 2027", "url": "https://www.bilimsenligi.com/yarinin-teknoloji-liderleri-2027-35-milyon-tl-odul.html", "platform": "Web", "type": "yarisma", "organizer": "Turkcell", "deadline": "2027-01-15", "event_date": "2027-05-03", "location": null, "online": null, "turkey": true, "summary": "Bireysel ya da en fazla 3 kişilik takımlarla 12 teknoloji temasında proje yarışması; toplam 3,5 milyon TL ödül, final 3-7 Mayıs 2027."}
-]}
+{
+"events": [
+{
+"title": "Fountain Hackathon 2026",
+"url": "https://www.fountainhackathon.com/",
+"platform": "Web",
+"type": "hackathon",
+"organizer": "Fountain",
+"deadline": "2026-11-25",
+"event_date": "2026-11-28",
+"location": "İstanbul",
+"online": false,
+"turkey": true,
+"summary": "Tech Istanbul Şişli'de 28-29 Kasım'da yapılacak, Y Combinator simülasyonu formatında iki günlük ücretsiz hackathon; 50.000 TL ödül havuzu, 1-5 kişilik ekipler."
+},
+{
+"title": "GAZİ AI TECH 2026 Yapay Zekâ Proje Fikri Yarışması",
+"url": "https://www.bilimsenligi.com/gazi-ai-tech-2026-yapay-zeka-yarismasi-ve-oduller.html",
+"platform": "Üniversite",
+"type": "ideathon",
+"organizer": "Gazi Üniversitesi",
+"deadline": "2026-11-25",
+"event_date": "2026-12-04",
+"location": "Ankara",
+"online": false,
+"turkey": true,
+"summary": "Türkiye'deki ön lisans ve lisans öğrencilerine açık yapay zekâ proje fikri yarışması; final ve ödül töreni 4 Aralık'ta Ankara'da."
+},
+{
+"title": "Türkiye'nin Kadın Girişimcisi Yarışması 2026",
+"url": "https://webrazzi.com/2026/11/05/turkiyenin-kadin-girisimcisi-yarismasinda-basvurular-30-kasima-kadar-devam-ediyor/",
+"platform": "Web",
+"type": "yarisma",
+"organizer": "Garanti BBVA, KAGİDER, Ekonomist",
+"deadline": "2026-11-30",
+"event_date": null,
+"location": null,
+"online": null,
+"turkey": true,
+"summary": "20. yılındaki kadın girişimci yarışması; beş kategoride toplam 3 milyon TL ödül, başvurular 30 Kasım'a uzatıldı."
+},
+{
+"title": "TechAnkara Maker Programı 2026-2 (Makeathlon)",
+"url": "https://www.bilimsenligi.com/techankara-maker-2026-basvurulari-96-bin-tl-odul.html",
+"platform": "Web",
+"type": "yarisma",
+"organizer": "Ankara Kalkınma Ajansı, Ankara İl MEM, Teknopark Ankara",
+"deadline": "2026-12-04",
+"event_date": "2026-12-12",
+"location": "Ankara",
+"online": false,
+"turkey": true,
+"summary": "Lise öğrencilerine yönelik teknoloji ve kodlama yarışması; başvuruyu takım lideri öğretmen yapar, final 12 Aralık'ta Teknopark Ankara'da, 96 bin TL ödül."
+},
+{
+"title": "YAZGİT Yapay Zekâ Hackathonu 2026",
+"url": "https://yazgit.com/hackathon",
+"platform": "Üniversite",
+"type": "hackathon",
+"organizer": "Ankara Üniversitesi YAZGİT, OpenZeka",
+"deadline": null,
+"event_date": "2026-12-11",
+"location": "Ankara",
+"online": false,
+"turkey": true,
+"summary": "Üniversite öğrencilerine açık, 2-4 kişilik takımlarla yapay zekâ hackathonu; problem etkinlik günü açıklanacak. Son başvuru tarihi sitede belirtilmemiş."
+},
+{
+"title": "Turkcell Yarının Teknoloji Liderleri 2027",
+"url": "https://www.bilimsenligi.com/yarinin-teknoloji-liderleri-2027-35-milyon-tl-odul.html",
+"platform": "Web",
+"type": "yarisma",
+"organizer": "Turkcell",
+"deadline": "2027-01-15",
+"event_date": "2027-05-03",
+"location": null,
+"online": null,
+"turkey": true,
+"summary": "Bireysel ya da en fazla 3 kişilik takımlarla 12 teknoloji temasında proje yarışması; toplam 3,5 milyon TL ödül, final 3-7 Mayıs 2027."
+},
+{
+"title": "Diamond Challenge 2027",
+"url": "https://www.bilimsenligi.com/diamond-challenge-2027-girisimcilik-yarismasi.html",
+"platform": "Web",
+"type": "yarisma",
+"organizer": "University of Delaware Horn Entrepreneurship",
+"deadline": "2027-01-14",
+"event_date": "2027-04-29",
+"location": "Online",
+"online": true,
+"turkey": false,
+"summary": "14-18 yaş lise öğrencilerine yönelik uluslararası girişimcilik yarışması; 100.000 USD ödül havuzu, başvuru ve ilk değerlendirme online."
+}
+]
+}
